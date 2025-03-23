@@ -1,0 +1,21 @@
+{
+  "showLineNumber": true,
+  "trashOption": "system",
+  "alwaysUpdateLinks": true,
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "./attachments",
+  "newFileLocation": "root",
+  "newFileFolderPath": "New",
+  "promptDelete": false,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "readableLineLength": false,
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": true,
+  "showInlineTitle": true
+}

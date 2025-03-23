@@ -1,0 +1,23 @@
+{
+  "accentColor": "#7e47ff",
+  "interfaceFontFamily": "霞鹜文楷 Medium",
+  "textFontFamily": "霞鹜文楷",
+  "monospaceFontFamily": "Fira Mono for Powerline",
+  "baseFontSize": 16,
+  "translucency": false,
+  "cssTheme": "Blue Topaz",
+  "enabledCssSnippets": [
+    "center_img",
+    "bgCustomize",
+    "nicer-checkboxes",
+    "超长文件名换行",
+    "标签样式",
+    "页内搜索-替换框",
+    "outline"
+  ],
+  "theme": "obsidian",
+  "baseFontSizeAction": true,
+  "nativeMenus": false,
+  "showViewHeader": true,
+  "showRibbon": true
+}

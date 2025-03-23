@@ -1,0 +1,125 @@
+/* @settings
+name: 【Footnote-熊猫】Sidebar Footnote 
+id: sidebar-footnote
+settings:
+  - id: sidebar-footnote-status
+    title: 隐藏侧边栏脚注(footnote)
+    type: class-toggle
+    default: false
+    addCommand: true
+  - id: sidebar-footnote-backref
+    title: 全局化脚注(footnote)的跳转链接
+    description: 即不显示跳转链接↩︎，而是点击脚注即跳转
+    type: class-toggle
+    default: true
+    addCommand: true
+  - id: footnote-sidebar-position
+    title: 修改侧边栏脚注(footnote)的位置(左/右)
+    type: class-toggle
+    default: true
+    addCommand: true
+*/
+
+
+.sidebar-footnote-status {
+  div:has(>section.footnotes) {
+    display: none;
+  }
+}
+
+
+.footnote-sidebar-position div:has(>section.footnotes) {
+  left: unset;
+  right: 20px;
+}
+
+.sidebar-footnote-backref {
+  .footnote-backref {
+    /*! 全局化 */
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+  }
+}
+
+sup.footnote-ref {
+  font-size: medium;
+
+  &.is-flashing {
+    background-color: red !important;
+  }
+}
+
+div:has(>section.footnotes) {
+  display: block;
+  position: fixed !important;
+  width: 22vi;
+  top: 20vb;
+  left: 20px;
+  overflow: auto;
+
+  height: fit-content;
+  max-height: 70vb;
+  background-color: var(--background-secondary);
+  border-radius: 10px;
+  counter-reset: footnote-counter;
+
+  .footnotes {
+    hr {
+      display: none;
+    }
+
+    &>ol {
+      list-style-type: none;
+      margin: 10px;
+
+
+      span:has(img) {
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      li:not(:hover) {
+        opacity: 0.8;
+      }
+
+      li+li {
+        margin-top: 10px;
+
+      }
+
+      li::before {
+        counter-increment: footnote-counter;
+        content: "["counter(footnote-counter)"]：";
+        float: left;
+        color: var(--interactive-accent);
+        display: block;
+        width: fit-content;
+        height: fit-content;
+      }
+
+      li {
+        margin-left: 0px;
+        position: relative;
+        padding: 10px;
+        background-color: var(--background-primary);
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        /* 阴影 */
+        border: 1px solid var(--background-modifier-border);
+        /* 边框 */
+
+        .footnote-backref {
+          display: block;
+          position: absolute;
+          bottom: 0px;
+          right: 0px;
+        }
+
+        &:has(.footnote-backref:active) {
+          background-color: var(--interactive-accent)
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+/*实时编辑*/
+.markdown-source-view span.cm-inline-code {
+	padding:4px;
+	border-width:1px;
+	border-style: solid;
+	border-radius: 5px;
+	font-weight: bold;
+}
+.theme-light .markdown-source-view span.cm-inline-code {
+	color:#8A5CF5;
+	background-color: #71a5f969;
+	border-color:#8A5CF5;
+}
+.theme-dark .markdown-source-view span.cm-inline-code{
+	color:#8A5CF5;
+	background-color: #42619269;
+	border-color:#8A5CF5;
+}
+/*阅读模式*/
+div p code {
+	padding:4px;
+	border-width:1px;
+	border-style: solid;
+	border-radius: 5px;
+	font-weight: bold;
+}
+.theme-light div p code {
+	color:#8A5CF5;
+	background-color: #71a5f969;
+	border-color:#8A5CF5;
+}
+.theme-dark div p code {
+	color:#8A5CF5;
+	background-color: #42619269;
+	border-color:#8A5CF5;
+}

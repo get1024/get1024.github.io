@@ -1,0 +1,14 @@
+{
+  "dayCounts": {
+    "2025/2/19": 476,
+    "2025/2/20": 457,
+    "2025/2/21": 0,
+    "2025/2/22": 1
+  },
+  "todaysWordCount": {
+    "otherDocs/draft.md": {
+      "initial": 96,
+      "current": 97
+    }
+  }
+}

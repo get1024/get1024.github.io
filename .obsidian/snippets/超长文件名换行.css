@@ -1,0 +1,5 @@
+/* 文件名换行 */
+div.nav-file-title-content,
+div.nav-folder-title-content {
+white-space: normal;
+}

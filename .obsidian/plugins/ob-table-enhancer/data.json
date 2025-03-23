@@ -1,0 +1,10 @@
+{
+  "enableButtonPanel": true,
+  "enableTableGenerator": true,
+  "enableFloatingToolbar": false,
+  "adjustTableCellHeight": false,
+  "removeEditBlockButton": false,
+  "defaultAlignmentForTableGenerator": "center",
+  "defaultAlignmentWhenInsertNewCol": "center",
+  "enableColumnWidthAdjust": true
+}
