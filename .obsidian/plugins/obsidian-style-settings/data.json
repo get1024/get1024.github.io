@@ -168,5 +168,10 @@
   "blue-topaz-theme@@enable-icon-anima": false,
   "sidebar-footnote@@sidebar-footnote-status": false,
   "sidebar-footnote@@sidebar-footnote-backref": false,
-  "sidebar-footnote@@footnote-sidebar-position": false
+  "sidebar-footnote@@footnote-sidebar-position": false,
+  "floating-toc-styles@@enable-outline-style": "default-outline-style",
+  "floating-toc-styles@@enable-bar-style": "default-bar-style",
+  "floating-toc-styles@@enable-bar-heading-text": false,
+  "floating-toc-styles@@floating-toc-response-time": 0.2,
+  "floating-toc-styles@@enable-background-blur-dept": false
 }

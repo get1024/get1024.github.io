@@ -1,7 +1,7 @@
 ---
 title: Powershell配置和美化方案
 createAt: 2024-04-24 18:03:36
-updateAt: 2025-02-02 23:52:27
+updateAt: 2025-04-14 19:22:57
 tags:
   - 工具
   - Windows
@@ -20,35 +20,13 @@ tags:
 
 先看配置美化完成的效果
 
-- Windows 终端窗口
-
-![Terminal](assets/1-powershell配置和美化方案/Terminal.png)
-
+- Windows 终端窗口（有背景是因为终端窗口透明，后面是我的桌面壁纸）
+![](assets/1-powershell配置和美化方案/20250413_221859.png)
 - VSCode 自带终端
-
-![VSCode-Terminal](assets/1-powershell配置和美化方案/VSCode-Terminal.png)
-
+![](assets/1-powershell配置和美化方案/20250413_221939.png)
 是不是比原生的好看呢？接下来看看具体如何配置吧！如果你只是想复刻我的样式，请直接跳转这里： [复刻我的配置](#复刻我的配置)
 
-## 安装
-
-### Windows Terminal
-
-对于 <span class="marker-evy">**Windows 11**</span> 系统已经默认用 Windows Terminal 取代了原本的 Powershell。<span class="marker-underline">「注：此处的 Powershell 并不是我们本文档所关注的 Powershell 7。」</span>Windows 11 用户可以 `跳过安装` 这一步，直接单击键盘上的 `Windows 徽标键` ，在弹出窗口搜索🔍 `Windows PowerShell` ，单击打开。
-
-![search-powershell](assets/1-powershell配置和美化方案/search-powershell.png)
-
-对于 <span class="marker-evy">**Windows 10**</span>，首先需要到 Microsoft store 安装 [Windows Terminal](https://apps.microsoft.com/detail/9n0dx20hk701?rtc=1&hl=zh-CN&gl=CN)（点击此链接一键安装）。安装成功后，单击键盘上的 `Windows 徽标键` ，在弹出窗口搜索🔍 `Windows Terminal` ，单击打开。
-
-![search-Terminal](assets/1-powershell配置和美化方案/search-Terminal.png)
-
-::: tip 作者说
-
-后文打开 `Windows Terminal` 或 `Windows PowerShell` 都是同样的操作，不再赘述。
-
-:::
-
-### Powershell 7
+## 安装 Powershell 7
 
 在 `Windows Terminal` (对于 Windows 11 用户) <span class="marker-evy">或</span> `Windows PowerShell` (对于 Windows 10 用户) 中，复制以下命令运行。
 
@@ -60,106 +38,84 @@ winget install --id Microsoft.PowerShell --source winget
 
 耐心等待后显示安装成功。
 
+![](assets/1-powershell配置和美化方案/powershell7安装.mp4)
+
 如果你有更多需求，请查看官方文档：[在 Windows 上安装 PowerShell](https://learn.microsoft.com/zh-cn/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.4#install-powershell-using-winget-recommended)
 
 ## 配置
 
 ### 设置默认
 
-- 打开 `Windows Terminal` 设置页。
+打开 `PowerShell7` 设置页，选择默认打开为 `PowerShell`
 
-	可以按如下步骤操作，或直接在 `Windows Terminal` 窗口按 `ctrl+,` 快捷呼出。
+![](assets/1-powershell配置和美化方案/powershell%20setting.png)
 
-	![config-default](assets/1-powershell配置和美化方案/config-default.png)
+### 安装 `Posh-Git`
 
-	![config-default2](assets/1-powershell配置和美化方案/config-default2.png)
+`PowerShell7` 运行以下命令
 
-- 新建空配置文件
+```shell [powershell]
+Install-Module -Name posh-git -Force
+```
 
-	![config-default3](assets/1-powershell配置和美化方案/config-default3.png)
+### 安装 `Oh-my-posh`
 
-- 设置配置项
+在 `Powershell` 中运行以下命令，耐心等待安装成功
 
-	如果你是安装到 `默认目录` ，那么照抄图中配置即可。如果你是安装到 `自定义目录` ，那你一定知道你在干什么，所以按照你的个性化配置填写下列配置即可。
+```sh [powershell]
+winget install JanDeDobbeleer.OhMyPosh -s winget
+```
 
-	![config-default4](assets/1-powershell配置和美化方案/config-default4.png)
+### 安装字体
 
-- 设置默认启动 Powershell 7。选中刚刚创建的配置文件。
+```sh [powershell]
+oh-my-posh font install meslo
+```
 
-	![config-default5](assets/1-powershell配置和美化方案/config-default5.png)
+安装字体后，您需要配置 `Windows 终端` 才能使用它。这可以通过修改 Windows 终端设置轻松完成（默认快捷方式： `CTRL + SHIFT + ,` ）。在您的 `settings.json` 文件中，在 `profiles` 中的 `defaults` 属性下添加 `font.face` 属性：
 
-- 验证
-
-	打开 `Windows Terminal` ，发现默认打开的即是 `Powershell7` 。
-
-### 配置插件和美化
-
-- 安装 `Oh-my-posh`
-
-	在 `Powershell` 中运行以下命令，耐心等待安装成功
-
-	```sh [powershell]
-	winget install JanDeDobbeleer.OhMyPosh -s winget
-	```
-
-- 安装字体
-
-	```sh [powershell]
-	oh-my-posh font install meslo
-	```
-
-	安装字体后，您需要配置 `Windows 终端` 才能使用它。这可以通过修改 Windows 终端设置轻松完成（默认快捷方式： `CTRL + SHIFT + ,` ）。在您的 `settings.json` 文件中，在 `profiles` 中的 `defaults` 属性下添加 `font.face` 属性：
-
-	```json [setting.json]
+```json [setting.json]
+{
+	"profiles":
 	{
-	    "profiles":
-	    {
-	        "defaults":
-	        {
-	            "font":
-	            {
-	                "face": "MesloLGM Nerd Font"
-	            }
-	        }
-	    }
+		"defaults":
+		{
+			"font":
+			{
+				"face": "MesloLGMDZ Nerd Font Mono"
+			}
+		}
 	}
-	```
+}
+```
 
-- 设置 Powershell 7 外观配置
+### 启用 `Oh-my-posh` 主题
 
-	![config-style](assets/1-powershell配置和美化方案/config-style.png)
+在 `Powershell` 中运行，显示所有预设主题，挑选你喜欢的主题。
 
-	![config-style2](assets/1-powershell配置和美化方案/config-style2.png)
+```sh [powershell]
+Get-PoshThemes
+```
 
-	只需设置标识的几项，剩余配置项保持默认、或者凭你喜好自由设置。
+![Get-PoshThemes](assets/1-powershell配置和美化方案/Get-PoshThemes.gif)
 
-- 启用 `Oh-my-posh` 主题
+如果你觉得终端观看各种主题不太清楚，可以到官方文档 [Themes | Oh My Posh](https://ohmyposh.dev/docs/themes) 查看。
 
-	在 `Powershell` 中运行，显示所有预设主题，挑选你喜欢的主题。
+挑选你喜欢的主题，并记住主题名字，这里我们以 `neko` 为例。
 
-	```sh [powershell]
-	Get-PoshThemes
-	```
+终端运行：
 
-	![Get-PoshThemes](assets/1-powershell配置和美化方案/Get-PoshThemes.gif)
+```sh [powershell]
+code $profile
+```
 
-	如果你觉得终端观看各种主题不太清楚，可以到官方文档 [Themes | Oh My Posh](https://ohmyposh.dev/docs/themes) 查看。
+在弹出窗口添加配置：
 
-	挑选你喜欢的主题，并记住主题名字，这里我们以 `neko` 为例。
+```ps1 [Microsoft.PowerShell_profile.ps1]
+oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/neko.omp.json" | Invoke-Expression
+```
 
-	终端运行：
-
-	```sh [powershell]
-	code $profile
-	```
-
-	在弹出窗口添加配置：
-
-	```ps1 [Microsoft.PowerShell_profile.ps1]
-	oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/neko.omp.json" | Invoke-Expression
-	```
-
-	重新返回终端便可查看主题已经变为 `neko` 对应主题，设置其他主题也同理。
+重新返回终端便可查看主题已经变为 `neko` 对应主题，设置其他主题也同理。
 
 如果你对配置教程有更加深刻的需求，请访问官方文档 [Introduction \| Oh My Posh](https://ohmyposh.dev/docs)。
 
@@ -170,6 +126,7 @@ winget install --id Microsoft.PowerShell --source winget
 ::: code-group
 
 ```ps1 [Microsoft.PowerShell_profile.ps1]
+Import-Module gsudoModule
 # 引入 posh-git
 Import-Module posh-git
 # 引入 ps-read-line
@@ -197,11 +154,11 @@ Set-PSReadLineKeyHandler -Key DownArrow -Function HistorySearchForward
 
 oh-my-posh init pwsh | Invoke-Expression
 
-oh-my-posh init pwsh --config 'C:\Users\RJY\AppData\Local\Programs\oh-my-posh\themes\ryanjoy.omp.json' | Invoke-Expression
+oh-my-posh init pwsh --config 'C:\Users\RyanJoy\AppData\Local\Programs\oh-my-posh\themes\ryanjoy.omp.json' | Invoke-Expression
 ```
 
 ```json [ryanjoy.omp.json]
-// C:\Users\RJY\AppData\Local\Programs\oh-my-posh\themes\ryanjoy.omp.json
+// C:\Users\RyanJoy\AppData\Local\Programs\oh-my-posh\themes\ryanjoy.omp.json
 {
     "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
     "blocks": [
@@ -305,8 +262,7 @@ oh-my-posh init pwsh --config 'C:\Users\RJY\AppData\Local\Programs\oh-my-posh\th
     [
         {
             "command": "paste",
-            "id": "User.paste",
-            "keys": "ctrl+v"
+            "id": "User.paste"
         },
         {
             "command": 
@@ -314,13 +270,7 @@ oh-my-posh init pwsh --config 'C:\Users\RJY\AppData\Local\Programs\oh-my-posh\th
                 "action": "copy",
                 "singleLine": false
             },
-            "id": "User.copy.644BA8F2",
-            "keys": "ctrl+c"
-        },
-        {
-            "command": "find",
-            "id": "User.find",
-            "keys": "ctrl+shift+f"
+            "id": "User.copy.644BA8F2"
         },
         {
             "command": 
@@ -329,8 +279,11 @@ oh-my-posh init pwsh --config 'C:\Users\RJY\AppData\Local\Programs\oh-my-posh\th
                 "split": "auto",
                 "splitMode": "duplicate"
             },
-            "id": "User.splitPane.A6751878",
-            "keys": "alt+shift+d"
+            "id": "User.splitPane.A6751878"
+        },
+        {
+            "command": "find",
+            "id": "User.find"
         }
     ],
     "alwaysShowTabs": true,
@@ -341,6 +294,25 @@ oh-my-posh init pwsh --config 'C:\Users\RJY\AppData\Local\Programs\oh-my-posh\th
     "focusFollowMouse": true,
     "initialCols": 90,
     "initialRows": 25,
+    "keybindings": 
+    [
+        {
+            "id": "User.find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "id": "User.paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "id": "User.copy.644BA8F2",
+            "keys": "ctrl+c"
+        },
+        {
+            "id": "User.splitPane.A6751878",
+            "keys": "alt+shift+d"
+        }
+    ],
     "language": "zh-Hans",
     "launchMode": "default",
     "newTabMenu": 
@@ -412,7 +384,7 @@ oh-my-posh init pwsh --config 'C:\Users\RJY\AppData\Local\Programs\oh-my-posh\th
                 "commandline": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
                 "font": 
                 {
-                    "face": "MesloLGL Nerd Font",
+                    "face": "MesloLGM Nerd Font",
                     "size": 12,
                     "weight": "semi-bold"
                 },
@@ -420,7 +392,7 @@ oh-my-posh init pwsh --config 'C:\Users\RJY\AppData\Local\Programs\oh-my-posh\th
                 "hidden": false,
                 "icon": "C:\\Program Files\\PowerShell\\7\\assets\\Powershell_black.ico",
                 "name": "Powershell7",
-                "opacity": 100,
+                "opacity": 86,
                 "scrollbarState": "hidden",
                 "showMarksOnScrollbar": true,
                 "tabTitle": "Powershell7",
@@ -431,7 +403,6 @@ oh-my-posh init pwsh --config 'C:\Users\RJY\AppData\Local\Programs\oh-my-posh\th
     "schemes": 
     [
         {
-            "name": "Homebrew",
             "background": "#283033",
             "black": "#000000",
             "blue": "#6666E9",
@@ -455,7 +426,6 @@ oh-my-posh init pwsh --config 'C:\Users\RJY\AppData\Local\Programs\oh-my-posh\th
             "yellow": "#999900"
         },
         {
-            "name": "HomebrewCus",
             "background": "#283033",
             "black": "#000000",
             "blue": "#6666E9",

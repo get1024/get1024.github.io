@@ -1,9 +1,9 @@
 {
   "accentColor": "#7e47ff",
   "interfaceFontFamily": "霞鹜文楷 Medium",
-  "textFontFamily": "霞鹜文楷",
-  "monospaceFontFamily": "Fira Mono for Powerline",
-  "baseFontSize": 16,
+  "textFontFamily": "霞鹜文楷 Medium",
+  "monospaceFontFamily": "霞鹜文楷 Medium",
+  "baseFontSize": 17,
   "translucency": false,
   "cssTheme": "Blue Topaz",
   "enabledCssSnippets": [

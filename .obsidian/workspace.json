@@ -4,27 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "d4a4cb7a983b2489",
+        "id": "0e2e6d2092a0cc74",
         "type": "tabs",
         "children": [
           {
-            "id": "498210ff8b35a813",
+            "id": "95dec69f40628aba",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📒文章/🤔反思和总结/💯考研/🗃️复试资料整理/面试问题准备.md",
+                "file": "📒文章/🛠️实用工具/📦Scoop/Scoop——Windows下的包管理器.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
-              "pinned": true,
               "icon": "lucide-file",
-              "title": "面试问题准备"
+              "title": "Scoop——Windows下的包管理器"
+            }
+          },
+          {
+            "id": "640ccb642daf9c8f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📒文章/🛠️实用工具/📟Powershell/1-Powershell配置和美化方案.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "1-Powershell配置和美化方案"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -154,13 +168,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📒文章/🤔反思和总结/💯考研/🗃️复试资料整理/面试问题准备.md",
+                "file": "📒文章/🛠️实用工具/📟Powershell/1-Powershell配置和美化方案.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "面试问题准备 的大纲"
+              "title": "1-Powershell配置和美化方案 的大纲"
             }
           },
           {
@@ -180,6 +194,26 @@
           },
           {
             "id": "7c386fd09cc50721",
+            "type": "leaf",
+            "state": {
+              "type": "stats-tracker",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "23f503d9985df60e",
+            "type": "leaf",
+            "state": {
+              "type": "stats-tracker",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "6593655b883b2ec6",
             "type": "leaf",
             "state": {
               "type": "stats-tracker",
@@ -247,27 +281,48 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian42-brat:BRAT": false,
-      "obsidian-day-and-night:Toggle Theme": true,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": true,
+      "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "random-note:开始漫游笔记": false
+      "random-note:开始漫游笔记": false,
+      "obsidian42-brat:BRAT": false,
+      "obsidian-day-and-night:Toggle Theme": false,
+      "youhavebeenstaring-plugin:Start/stop staring counter": false
     }
   },
-  "active": "498210ff8b35a813",
+  "active": "640ccb642daf9c8f",
   "lastOpenFiles": [
-    "📒文章/🤔反思和总结/💯考研/🗃️复试资料整理/assets/面试问题准备/陕师大.png",
-    "📒文章/🤔反思和总结/💯考研/🗃️复试资料整理/assets/面试问题准备/深理工-南科大.png",
-    "📒文章/🤔反思和总结/💯考研/🗃️复试资料整理/assets/面试问题准备/深理工-深大.png",
-    "📒文章/🤔反思和总结/💯考研/🗃️复试资料整理/assets/面试问题准备/深技大-深大.png",
-    "vite.config.ts.timestamp-1742821662121-8264b8f740149.mjs",
-    "📒文章/🤔反思和总结/💯考研/🗃️复试资料整理/assets/面试问题准备/广东工业复试.png",
-    "📒文章/🤔反思和总结/💯考研/🗃️复试资料整理/assets/面试问题准备",
-    "📒文章/🤔反思和总结/💯考研/🗃️复试资料整理/assets",
+    "📒文章/🛠️实用工具/📦Scoop/Scoop——Windows下的包管理器.md",
+    "📒文章/🛠️实用工具/📦Scoop/assets/scoop——windows下的包管理器/jdk8安装.gif",
+    "📒文章/🛠️实用工具/📦Scoop/assets/scoop——windows下的包管理器",
+    "vite.config.ts.timestamp-1744613653198-084dbc6b42f41.mjs",
+    "_tmp_19680_63aa656cdc16548df01542afad15f091",
+    "package.json.1315893156",
+    "node_modules/@vueuse",
+    "node_modules/@vue",
+    "node_modules/@vitejs",
+    "node_modules/@types",
+    "node_modules/@vercel",
+    "node_modules/@shikijs",
+    "📒文章/🖥️专业技能/📦Npm/Npm&Pnpm的安装与配置.md",
+    "📒文章/🖥️专业技能/📦Npm/assets/npm&pnpm的安装与配置/pnpm安装.png",
+    "📒文章/🖥️专业技能/📦Npm/assets/npm&pnpm的安装与配置/验证安装.png",
+    "📒文章/🖥️专业技能/📦Npm/assets/npm&pnpm的安装与配置/nodejs版本搜索.png",
+    "📒文章/🖥️专业技能/📦Npm/assets/npm&pnpm的安装与配置/nodejs版本搜索.gif",
+    "📒文章/🖥️专业技能/📦Npm/assets/npm&pnpm的安装与配置/nvm安装.png",
+    "📒文章/🖥️专业技能/📦Npm/Npm发布自定义依赖包.md",
+    "📒文章/🛠️实用工具/📦Scoop/assets/scoop——windows下的包管理器/openjdk下载.gif",
+    "📒文章/🖥️专业技能/🌵Git/Git安装配置.md",
+    "📒文章/🛠️实用工具/📟Powershell/1-Powershell配置和美化方案.md",
+    "📒文章/🛠️实用工具/📟Powershell/assets/1-powershell配置和美化方案/20250413_221939.png",
+    "📒文章/🛠️实用工具/📟Powershell/assets/1-powershell配置和美化方案/20250413_221859.png",
+    "📒文章/🛠️实用工具/📟Powershell/assets/1-powershell配置和美化方案/20250413_220308.png",
+    "📒文章/🤔反思和总结/💯考研/🗃️复试资料整理/面试问题准备.md",
+    "📒文章/🤔反思和总结/💯考研/复试联系导师.md",
+    "📆日记/index.md",
     "📒文章/🤔反思和总结/📈个人成长/流水不争先，争的是滔滔不绝.md",
     "📒文章/🤔反思和总结/📈个人成长/自我剖析.md",
     "otherDocs/draft.md",
@@ -275,7 +330,6 @@
     "📒文章/🤔反思和总结/🥰情感/如何正确看待失败的恋爱经历.md",
     "otherDocs/关于我.md",
     "📒文章/👨🏼‍💻个人项目/🌐博客/RyanJoy博客发展史.md",
-    "📒文章/🤔反思和总结/💯考研/🗃️复试资料整理/面试问题准备.md",
     "📒文章/👨🏼‍💻个人项目/🌐博客/🔌功能解耦插件/Vitepress代码块icon.md",
     "📒文章/👨🏼‍💻个人项目/🌐博客/🔌功能解耦插件/BackToTop-回到顶部按钮.md",
     "📒文章/🗿生活技巧/🛒购物/7000￥价位笔记本电脑选购指北.md",
@@ -283,29 +337,9 @@
     "📒文章/🤔反思和总结/💯考研/RUC复试准备.md",
     "📒文章/👨🏼‍💻个人项目/🌐博客/🔌功能解耦插件/Vitepress文档元信息组件.md",
     "📒文章/👨🏼‍💻个人项目/💴基于vue+springboot的资产管理系统/第1天---前端.md",
-    "vite.config.ts.timestamp-1742438839992-933d7d51f0b41.mjs",
-    "vite.config.ts.timestamp-1742438470141-8f29ab9512c51.mjs",
-    "📆日记/index.md",
-    "vite.config.ts.timestamp-1742398012997-882a7dfb2972.mjs",
     "📒文章/👨🏼‍💻个人项目/🌐博客/🔌功能解耦插件/Vitepress自动生成侧边栏.md",
-    "vite.config.ts.timestamp-1740930811177-aeb11ecbb3902.mjs",
     "📒文章/🤔反思和总结/💯考研/调剂院校收集.md",
-    "vite.config.ts.timestamp-1740301667094-f4f0c58fa6335.mjs",
-    "vite.config.ts.timestamp-1740280262229-398d4e4bc8bcb.mjs",
     "📒文章/🤔反思和总结/💯考研/🗃️复试资料整理/个人简历.md",
-    "📒文章/🤔反思和总结/💯考研/🗃️复试资料整理/专业英语名词.md",
-    "📒文章/🖥️专业技能/🌵Git/Git和Github的最佳实践.md",
-    "📒文章/🖥️专业技能/🌵Git/如何规范Git-Commit？.md",
-    "📒文章/🖥️专业技能/🌵Git/Git安装配置.md",
-    "📒文章/🖥️专业技能/🌵Git/Git学习.md",
-    "vite.config.ts.timestamp-1739974669005-a166ac36c06a8.mjs",
-    "📒文章/🤔反思和总结/💯考研/🗃️复试资料整理/计算机专业相关英文.md",
-    "assets/问学姐一些问题/5583262a5f18926eecf58b3b6657127.png",
-    "assets/问学姐一些问题/b5dea375ca5aa395cf23e9be1623905.png",
-    "assets/问学姐一些问题/352be6a86acf44dd3355453a1ebd6f7.png",
-    "assets/问学姐一些问题/f99c79b65f15ff869ab7974501c629d.png",
-    "📆日记/assets/2025-02-17/20250217-171828.png",
-    "📒文章/👨🏼‍💻个人项目/🌐博客/🔌功能解耦插件/assets/backtotop-回到顶部按钮/20250215-142519.gif",
     "未命名.canvas"
   ]
 }

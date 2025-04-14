@@ -61,6 +61,11 @@
     "overrides": {
       "markdown-it": "14.1.0",
       "@types/markdown-it": "14.1.2"
-    }
+    },
+    "onlyBuiltDependencies": [
+      "@vercel/speed-insights",
+      "esbuild",
+      "vue-demi"
+    ]
   }
 }
