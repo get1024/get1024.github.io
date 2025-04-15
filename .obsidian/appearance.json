@@ -1,5 +1,5 @@
 {
-  "accentColor": "#7e47ff",
+  "accentColor": "",
   "interfaceFontFamily": "霞鹜文楷 Medium",
   "textFontFamily": "霞鹜文楷 Medium",
   "monospaceFontFamily": "霞鹜文楷 Medium",
@@ -13,7 +13,8 @@
     "超长文件名换行",
     "标签样式",
     "页内搜索-替换框",
-    "outline"
+    "outline",
+    "inline-code"
   ],
   "theme": "obsidian",
   "baseFontSizeAction": true,

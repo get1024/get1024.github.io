@@ -1514,7 +1514,7 @@ function getKeydownHandler(plugin) {
   };
 }
 
-// node_modules/monkey-around/mjs/index.js
+// node_modules/.pnpm/monkey-around@2.3.0/node_modules/monkey-around/mjs/index.js
 function around(obj, factories) {
   const removers = Object.keys(factories).map((key) => around1(obj, key, factories[key]));
   return removers.length === 1 ? removers[0] : function() {
@@ -1712,6 +1712,13 @@ var TableEnhancer2 = class extends import_obsidian9.Plugin {
         }
       }));
     });
+    this.registerEvent(this.app.workspace.on("layout-change", () => {
+      var _a;
+      const view = (_a = this.app.workspace.getActiveViewOfType(import_obsidian9.MarkdownView)) == null ? void 0 : _a.contentEl;
+      view == null ? void 0 : view.querySelectorAll("div.cm-embed-block.cm-table-widget").forEach((el) => {
+        el.attributes.getNamedItem("contenteditable").value = "true";
+      });
+    }));
     this.registerEvent(this.app.workspace.on("editor-menu", (menu, editor) => {
       menu.setUseNativeMenu(false);
       const hoveredCell = activeDocument.querySelector("." + hoveredCellClassName);

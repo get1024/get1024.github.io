@@ -14,7 +14,16 @@ updateAt: 2025-04-14 11:12:15
 
 总体思路如下：使用 `scoop` 管理 `nvm` ，使用 `nvm` 管理 `nodejs` 和 `npm` ，使用 `npm` 安装 `pnpm` 。
 
-## `nvm` 的安装
+```mermaid
+stateDiagram-v2
+        direction LR
+        Scoop --> nvm
+        nvm --> nodejs
+        nvm --> npm
+        npm --> pnpm
+```
+
+##  `nvm` 的安装
 
 ```sh [powershell]
 scoop install nvm
@@ -24,7 +33,7 @@ scoop install nvm
 
 ![](assets/npm&pnpm的安装与配置/nvm安装.png)
 
-## `nodejs` 安装
+##  `nodejs` 安装
 
 查询可用版本
 
@@ -50,13 +59,13 @@ npm -v
 
 ![](assets/npm&pnpm的安装与配置/验证安装.png)
 
-## `npm` 镜像配置
+##  `npm` 镜像配置
 
 ```sh [powershell]
 npm config set registry https://registry.npmmirror.com
 ```
 
-## `pnpm` 安装
+##  `pnpm` 安装
 
 ```sh [powershell]
 npm install -g pnpm
