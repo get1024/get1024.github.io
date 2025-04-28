@@ -1,7 +1,7 @@
 ---
 title: Powershell配置和美化方案
 createAt: 2024-04-24 18:03:36
-updateAt: 2025-04-14 19:22:57
+updateAt: 2025-04-15 20:20:51
 tags:
   - 工具
   - Windows
@@ -126,6 +126,7 @@ oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/neko.omp.json" | Invoke-Exp
 ::: code-group
 
 ```ps1 [Microsoft.PowerShell_profile.ps1]
+# 引入 gsudo
 Import-Module gsudoModule
 # 引入 posh-git
 Import-Module posh-git
@@ -151,6 +152,9 @@ Set-PSReadLineKeyHandler -Key "Ctrl+z" -Function Undo
 Set-PSReadLineKeyHandler -Key UpArrow -Function HistorySearchBackward
 ## 设置向下键为前向搜索历史记录
 Set-PSReadLineKeyHandler -Key DownArrow -Function HistorySearchForward
+
+# 引入 scoop-search
+Invoke-Expression (&scoop-search --hook)
 
 oh-my-posh init pwsh | Invoke-Expression
 

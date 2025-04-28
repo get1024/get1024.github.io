@@ -97,7 +97,7 @@
   "blue-topaz-theme@@toggle-bg-panel-page": false,
   "blue-topaz-theme@@bg-panel-page-option": "panel-page-bg-theme-light-wall",
   "blue-topaz-theme@@bg-panel-page-opacity-cp": 1,
-  "blue-topaz-theme@@left-ribbon-style": "hide-left-ribbon-retention-drawer",
+  "blue-topaz-theme@@left-ribbon-style": "default-left-ribbon-style",
   "blue-topaz-theme@@bt-status-on": false,
   "blue-topaz-theme@@scrollbar-style-option": "remove-scrollbars",
   "blue-topaz-theme@@tab-title-bar-position": false,

@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📒文章/🛠️实用工具/📦Scoop/Scoop——Windows下的包管理器.md",
+                "file": "📆日记/index.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Scoop——Windows下的包管理器"
+              "title": "index"
             }
           },
           {
@@ -52,8 +52,7 @@
               "title": "Git和Github的最佳实践"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -183,13 +182,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📒文章/🖥️专业技能/📦Npm/Npm&Pnpm的安装与配置.md",
+                "file": "📆日记/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Npm&Pnpm的安装与配置 的大纲"
+              "title": "index 的大纲"
             }
           },
           {
@@ -275,14 +274,19 @@
       "random-note:开始漫游笔记": false,
       "obsidian42-brat:BRAT": false,
       "obsidian-day-and-night:Toggle Theme": false,
-      "youhavebeenstaring-plugin:Start/stop staring counter": false
+      "youhavebeenstaring-plugin:Start/stop staring counter": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "7611f1db83481654",
+  "active": "95dec69f40628aba",
   "lastOpenFiles": [
-    "_tmp_10620_c8b1bc5b2dc8e40809ca41d6e667346f",
     "📒文章/🛠️实用工具/📟Powershell/1-Powershell配置和美化方案.md",
     "📒文章/🛠️实用工具/📦Scoop/Scoop——Windows下的包管理器.md",
+    "📒文章/🖥️专业技能/📦Npm/Npm&Pnpm的安装与配置.md",
+    "otherDocs/Drawing 2025-04-15 14.47.43.excalidraw.md",
+    "📒文章/🖥️专业技能/📦Npm/assets/npm&pnpm的安装与配置/20250415151242.png",
+    "📒文章/🖥️专业技能/📦Npm/assets/npm&pnpm的安装与配置/20250415_145109.png",
+    "_tmp_10620_c8b1bc5b2dc8e40809ca41d6e667346f",
     "📒文章/🖥️专业技能/🌵Git/Git和Github的最佳实践.md",
     "📒文章/🖥️专业技能/🌵Git/Git学习.md",
     "📒文章/🖥️专业技能/🌵Git/Git安装配置.md",
@@ -297,8 +301,6 @@
     "node_modules/@vitejs",
     "node_modules/@types",
     "node_modules/@vercel",
-    "node_modules/@shikijs",
-    "📒文章/🖥️专业技能/📦Npm/Npm&Pnpm的安装与配置.md",
     "📒文章/🖥️专业技能/📦Npm/assets/npm&pnpm的安装与配置/pnpm安装.png",
     "📒文章/🖥️专业技能/📦Npm/assets/npm&pnpm的安装与配置/验证安装.png",
     "📒文章/🖥️专业技能/📦Npm/assets/npm&pnpm的安装与配置/nodejs版本搜索.png",
@@ -307,8 +309,6 @@
     "📒文章/🖥️专业技能/📦Npm/Npm发布自定义依赖包.md",
     "📒文章/🛠️实用工具/📦Scoop/assets/scoop——windows下的包管理器/openjdk下载.gif",
     "📒文章/🛠️实用工具/📟Powershell/assets/1-powershell配置和美化方案/20250413_221939.png",
-    "📒文章/🛠️实用工具/📟Powershell/assets/1-powershell配置和美化方案/20250413_221859.png",
-    "📒文章/🛠️实用工具/📟Powershell/assets/1-powershell配置和美化方案/20250413_220308.png",
     "📒文章/🤔反思和总结/💯考研/🗃️复试资料整理/面试问题准备.md",
     "📒文章/🤔反思和总结/💯考研/复试联系导师.md",
     "📆日记/index.md",
@@ -325,7 +325,6 @@
     "otherDocs/Todo 清单.md",
     "📒文章/🤔反思和总结/💯考研/RUC复试准备.md",
     "📒文章/👨🏼‍💻个人项目/🌐博客/🔌功能解耦插件/Vitepress文档元信息组件.md",
-    "📒文章/👨🏼‍💻个人项目/💴基于vue+springboot的资产管理系统/第1天---前端.md",
     "未命名.canvas"
   ]
 }

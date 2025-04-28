@@ -1,8 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "Npm&Pnpm的安装与配置",
-      "path": "📒文章/🖥️专业技能/📦Npm/Npm&Pnpm的安装与配置.md"
+      "basename": "index",
+      "path": "📆日记/index.md"
     },
     {
       "basename": "1-Powershell配置和美化方案",
@@ -11,6 +11,14 @@
     {
       "basename": "Scoop——Windows下的包管理器",
       "path": "📒文章/🛠️实用工具/📦Scoop/Scoop——Windows下的包管理器.md"
+    },
+    {
+      "basename": "Npm&Pnpm的安装与配置",
+      "path": "📒文章/🖥️专业技能/📦Npm/Npm&Pnpm的安装与配置.md"
+    },
+    {
+      "basename": "Drawing 2025-04-15 14.47.43.excalidraw",
+      "path": "otherDocs/Drawing 2025-04-15 14.47.43.excalidraw.md"
     },
     {
       "basename": "Git和Github的最佳实践",
@@ -39,10 +47,6 @@
     {
       "basename": "复试联系导师",
       "path": "📒文章/🤔反思和总结/💯考研/复试联系导师.md"
-    },
-    {
-      "basename": "index",
-      "path": "📆日记/index.md"
     },
     {
       "basename": "流水不争先，争的是滔滔不绝",

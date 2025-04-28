@@ -1,7 +1,7 @@
 ---
 title: Npm&Pnpm的安装与配置
 createAt: 2025-04-14 10:33:16
-updateAt: 2025-04-14 11:12:15
+updateAt: 2025-04-15 15:13:35
 ---
 
 # Npm&Pnpm的安装与配置
@@ -14,14 +14,7 @@ updateAt: 2025-04-14 11:12:15
 
 总体思路如下：使用 `scoop` 管理 `nvm` ，使用 `nvm` 管理 `nodejs` 和 `npm` ，使用 `npm` 安装 `pnpm` 。
 
-```mermaid
-stateDiagram-v2
-        direction LR
-        Scoop --> nvm
-        nvm --> nodejs
-        nvm --> npm
-        npm --> pnpm
-```
+![731](assets/npm&pnpm的安装与配置/20250415_145109.png)
 
 ##  `nvm` 的安装
 
