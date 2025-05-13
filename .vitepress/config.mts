@@ -276,9 +276,6 @@ export default defineConfig({
 
     },
     codeTransformers: [
-      transformerTwoslash({
-        typesCache: createFileSystemTypesCache() 
-      })
     ]
   },
 });
