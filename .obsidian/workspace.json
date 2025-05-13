@@ -26,15 +26,10 @@
             "id": "9448f3270d56eb59",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🎓研究生/第2次组会.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "第2次组会"
+              "title": "新标签页"
             }
           },
           {
@@ -68,7 +63,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -198,13 +193,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🎓研究生/第2次组会.md",
+                "file": "📒文章/🖥️专业技能/🌵Git/Git和Github的最佳实践.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "第2次组会 的大纲"
+              "title": "Git和Github的最佳实践 的大纲"
             }
           },
           {
@@ -294,7 +289,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "fff84b784abc86e6",
+  "active": "640ccb642daf9c8f",
   "lastOpenFiles": [
     "🎓研究生",
     "📆日记/index.md",
