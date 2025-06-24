@@ -5,11 +5,6 @@ export const nav: DefaultTheme.Config['nav'] = [
     link: '/📒文章/index',
   },
   {
-    text: '📆日记',
-    link: '/📆日记/index',
-    
-  },
-  {
     text: '🏷️标签',
     link: '/otherDocs/tagCloud'
   },
