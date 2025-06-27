@@ -1,0 +1,64 @@
+{
+  "scanned": true,
+  "reminders": {
+    "🎓硕士研究生/👥组会记录/上科大组会12_2025-06-24、25.md": [
+      {
+        "title": "想一个算法方向————标定？",
+        "time": "2025-06-30",
+        "rowNumber": 18
+      },
+      {
+        "title": "解决传参问题",
+        "time": "2025-07-01",
+        "rowNumber": 33
+      },
+      {
+        "title": "把 python 代码打包，跟 WPF 应用架构拆分开，算法不要暴漏给工程师",
+        "time": "2025-07-01",
+        "rowNumber": 34
+      },
+      {
+        "title": "删除“pdf 导出位置”选项，在输出窗口直接显示位置；",
+        "time": "2025-07-01",
+        "rowNumber": 35
+      },
+      {
+        "title": "如果有可能，把位置做成超链接，点击一下就能够直接打开 PDF 文件",
+        "time": "2025-07-01",
+        "rowNumber": 36
+      },
+      {
+        "title": "想清楚未来发展方向（就业？做什么？35以后做什么？就业百花齐放）",
+        "time": "2025-07-31",
+        "rowNumber": 29
+      }
+    ],
+    "🎓硕士研究生/👥组会记录/上科大组会13_2025-06-26_类图汇报.md": [
+      {
+        "title": "等工程师来了再跟他讲一下类图，然后最后再优化一下类图结构",
+        "time": "2025-07-01",
+        "rowNumber": 8
+      }
+    ]
+  },
+  "debug": false,
+  "settings": {
+    "reminderTime": "09:00",
+    "reminderTimeStep": 15,
+    "laters": "In 30 minutes\nIn 1 hour\nIn 3 hours\nTomorrow\nNext week",
+    "useSystemNotification": false,
+    "autoCompleteTrigger": "(@",
+    "primaryReminderFormat": "TasksPluginReminderFormat",
+    "enableReminderPluginReminderFormat": false,
+    "dateFormat": "YYYY-MM-DD",
+    "dateTimeFormat": "YYYY-MM-DD HH:mm",
+    "strictDateFormat": false,
+    "linkDatesToDailyNotes": false,
+    "enableTasksPluginReminderFormat": true,
+    "useCustomEmojiForTasksPlugin": false,
+    "removeTagsForTasksPlugin": false,
+    "enableKanbanPluginReminderFormat": false,
+    "editDetectionSec": 10,
+    "reminderCheckIntervalSec": 5
+  }
+}

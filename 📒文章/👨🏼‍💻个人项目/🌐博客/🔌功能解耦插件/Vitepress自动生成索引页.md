@@ -57,7 +57,7 @@ get1024.github.io
 
 易见我的项目结构没有 `'/docs/'` 存在，不过不必慌张，这一因素造成的区别也只会体现在 `Vitepress` 配置文件 `config.ts` 中的 [`base:`](https://vitepress.dev/zh/reference/site-config#base) 选项。我相信你在最初构建项目时，就已经完成了对它的配置。
 
-我需要展示在 [索引列表](/📒文章/index.md) 的笔记只是 `'/📒文章/'` 目录下的。至于 `'/otherDocs/'` 和 `'/index.md'` 都是通过 `config.mts` 文件中的 [`nav` 配置](https://vitepress.dev/zh/reference/default-theme-config#nav) 指向的。
+我需要展示在 [索引列表](../../../📒笔记/index.md) 的笔记只是 `'/📒文章/'` 目录下的。至于 `'/otherDocs/'` 和 `'/index.md'` 都是通过 `config.mts` 文件中的 [`nav` 配置](https://vitepress.dev/zh/reference/default-theme-config#nav) 指向的。
 
 这么安排主要是因为，我要搭建的是一个「博客」而不是其它的什么东西，因此除了 `'/📒文章/'` 目录下的内容都不需要出现在索引页中。
 
@@ -204,7 +204,7 @@ export const Theme: ThemeConfig = {
 
 ## 组件使用
 
-我选择把索引页放在 `📒文章/index.md` 中， [文章索引页](../../../index.md) 源代码如下
+我选择把索引页放在 `📒文章/index.md` 中， [文章索引页](../../../📒笔记/index.md) 源代码如下
 
 ```md [📒文章/index.md]
 ---

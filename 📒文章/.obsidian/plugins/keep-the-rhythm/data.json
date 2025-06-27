@@ -1,0 +1,2498 @@
+{
+  "schema": "0.2",
+  "settings": {
+    "enabledLanguages": [
+      "LATIN",
+      "CJK",
+      "JAPANESE",
+      "KOREAN",
+      "CYRILLIC",
+      "GREEK",
+      "ARABIC",
+      "HEBREW",
+      "INDIC",
+      "SOUTHEAST_ASIAN"
+    ],
+    "dailyWritingGoal": 500,
+    "startOfTheWeek": "SUNDAY",
+    "heatmapNavigation": true,
+    "heatmapConfig": {
+      "roundCells": false,
+      "hideMonthLabels": false,
+      "hideWeekdayLabels": false,
+      "intensityMode": "stops",
+      "intensityStops": {
+        "low": 100,
+        "medium": 500,
+        "high": 1000
+      },
+      "colors": {
+        "light": {
+          "0": "#e0e0e0",
+          "1": "#9be9a8",
+          "2": "#6ad286",
+          "3": "#2ebd54",
+          "4": "#12a53e"
+        },
+        "dark": {
+          "0": "#ebedf015",
+          "1": "#0e4429",
+          "2": "#006d32",
+          "3": "#26a641",
+          "4": "#39d353"
+        }
+      }
+    },
+    "sidebarConfig": {
+      "visibility": {
+        "showSlots": true,
+        "showEntries": true,
+        "showHeatmap": true
+      },
+      "slots": [
+        {
+          "index": 0,
+          "option": "CURRENT_WEEK",
+          "unit": "WORD",
+          "calc": "TOTAL"
+        },
+        {
+          "index": 1,
+          "option": "CURRENT_YEAR",
+          "unit": "WORD",
+          "calc": "TOTAL"
+        },
+        {
+          "index": 2,
+          "option": "CURRENT_DAY",
+          "unit": "WORD",
+          "calc": "TOTAL"
+        }
+      ]
+    }
+  },
+  "stats": {
+    "dailyActivity": [
+      {
+        "date": "2025-05-08",
+        "filePath": "👨🏼‍💻个人项目/开发_idea.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "12:00",
+            "w": 91,
+            "c": 0
+          }
+        ],
+        "id": 1
+      },
+      {
+        "date": "2025-05-10",
+        "filePath": "✅日程&日记/Tasks_2025-05-04.md",
+        "wordCountStart": 65,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "12:00",
+            "w": -22,
+            "c": 0
+          }
+        ],
+        "id": 2
+      },
+      {
+        "date": "2025-05-10",
+        "filePath": "✅日程&日记/Tasks_2025-05-10.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "12:00",
+            "w": 141,
+            "c": 0
+          }
+        ],
+        "id": 3
+      },
+      {
+        "date": "2025-05-12",
+        "filePath": "✅日程&日记/Tasks_2025-05-12.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "12:00",
+            "w": 72,
+            "c": 0
+          }
+        ],
+        "id": 4
+      },
+      {
+        "date": "2025-05-12",
+        "filePath": "✅日程&日记/Tasks_2025-05-10.md",
+        "wordCountStart": 141,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "12:00",
+            "w": -34,
+            "c": 0
+          }
+        ],
+        "id": 5
+      },
+      {
+        "date": "2025-05-12",
+        "filePath": "🎓硕士研究生/上科大_奖学金详解.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "12:00",
+            "w": 360,
+            "c": 0
+          }
+        ],
+        "id": 6
+      },
+      {
+        "date": "2025-05-15",
+        "filePath": "✅日程&日记/Tasks_2025-05-12.md",
+        "wordCountStart": 72,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "12:00",
+            "w": 4,
+            "c": 0
+          }
+        ],
+        "id": 7
+      },
+      {
+        "date": "2025-05-15",
+        "filePath": "🎓硕士研究生/上科大组会2_2025-04-29.md",
+        "wordCountStart": 54,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "12:00",
+            "w": -8,
+            "c": 0
+          }
+        ],
+        "id": 8
+      },
+      {
+        "date": "2025-05-15",
+        "filePath": "🎓硕士研究生/上科大组会3_2025-05-06.md",
+        "wordCountStart": 330,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "12:00",
+            "w": -40,
+            "c": 0
+          }
+        ],
+        "id": 9
+      },
+      {
+        "date": "2025-05-15",
+        "filePath": "🎓硕士研究生/上科大组会4_2025-05-15.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "12:00",
+            "w": 201,
+            "c": 0
+          }
+        ],
+        "id": 10
+      },
+      {
+        "date": "2025-05-15",
+        "filePath": "✅日程&日记/Tasks_2025-05-20.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "12:00",
+            "w": 44,
+            "c": 0
+          }
+        ],
+        "id": 11
+      },
+      {
+        "date": "2025-05-15",
+        "filePath": "✅日程&日记/Tasks_2025-05-16.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "12:00",
+            "w": 81,
+            "c": 0
+          }
+        ],
+        "id": 12
+      },
+      {
+        "date": "2025-05-18",
+        "filePath": "✅日程&日记/Tasks_2025-05-16.md",
+        "wordCountStart": 81,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "12:00",
+            "w": 4,
+            "c": 0
+          }
+        ],
+        "id": 13
+      },
+      {
+        "date": "2025-05-19",
+        "filePath": "🛠️实用工具/📟Powershell/1-Powershell配置和美化方案.md",
+        "wordCountStart": 1560,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "12:00",
+            "w": 303,
+            "c": 0
+          }
+        ],
+        "id": 14
+      },
+      {
+        "date": "2025-05-19",
+        "filePath": "🎓硕士研究生/👥组会记录/上科大组会2_2025-04-29.md",
+        "wordCountStart": 46,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "12:00",
+            "w": 8,
+            "c": 0
+          }
+        ],
+        "id": 15
+      },
+      {
+        "date": "2025-05-19",
+        "filePath": "🎓硕士研究生/👥组会记录/上科大组会3_2025-05-06.md",
+        "wordCountStart": 290,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "12:00",
+            "w": 8,
+            "c": 0
+          }
+        ],
+        "id": 16
+      },
+      {
+        "date": "2025-05-19",
+        "filePath": "🎓硕士研究生/👥组会记录/上科大组会4_2025-05-15.md",
+        "wordCountStart": 201,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "12:00",
+            "w": 26,
+            "c": 0
+          }
+        ],
+        "id": 17
+      },
+      {
+        "date": "2025-05-20",
+        "filePath": "🎓硕士研究生/👥组会记录/上科大组会5_2025-05-20.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "12:00",
+            "w": 330,
+            "c": 0
+          }
+        ],
+        "id": 18
+      },
+      {
+        "date": "2025-05-20",
+        "filePath": "🎓硕士研究生/数据库汇报.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "12:00",
+            "w": 300,
+            "c": 0
+          }
+        ],
+        "id": 19
+      },
+      {
+        "date": "2025-05-22",
+        "filePath": "🎓硕士研究生/👥组会记录/上科大组会6_2025-05-22.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "12:00",
+            "w": 85,
+            "c": 0
+          }
+        ],
+        "id": 20
+      },
+      {
+        "date": "2025-05-24",
+        "filePath": "🗿生活技巧/🏡租房/上科大_提前进组_包月酒店对比.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "12:00",
+            "w": 62,
+            "c": 0
+          }
+        ],
+        "id": 21
+      },
+      {
+        "date": "2025-05-25",
+        "filePath": "✅日程&日记/Tasks_2025-05-10.md",
+        "wordCountStart": 107,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "12:00",
+            "w": 6,
+            "c": 0
+          }
+        ],
+        "id": 22
+      },
+      {
+        "date": "2025-06-03",
+        "filePath": "🎓硕士研究生/👥组会记录/上科大组会8_2025-06-03.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "12:00",
+            "w": 134,
+            "c": 0
+          }
+        ],
+        "id": 23
+      },
+      {
+        "date": "2025-06-04",
+        "filePath": "✅日程&日记/Tasks_2025-06-05.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "12:00",
+            "w": 38,
+            "c": 0
+          }
+        ],
+        "id": 24
+      },
+      {
+        "date": "2025-06-05",
+        "filePath": "🖥️专业技能/🔩CSharp/WPF学习笔记.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "12:00",
+            "w": 209,
+            "c": 0
+          }
+        ],
+        "id": 25
+      },
+      {
+        "date": "2025-06-09",
+        "filePath": "🖥️专业技能/🔩CSharp/WPF学习笔记.md",
+        "wordCountStart": 209,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "12:00",
+            "w": 46,
+            "c": 0
+          }
+        ],
+        "id": 26
+      },
+      {
+        "date": "2025-06-10",
+        "filePath": "🎓硕士研究生/👥组会记录/上科大组会8_2025-06-03.md",
+        "wordCountStart": 134,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "12:00",
+            "w": -17,
+            "c": 0
+          }
+        ],
+        "id": 27
+      },
+      {
+        "date": "2025-06-10",
+        "filePath": "🎓硕士研究生/🛠️开发日记/WPF_PCV.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "12:00",
+            "w": 2795,
+            "c": 0
+          }
+        ],
+        "id": 28
+      },
+      {
+        "date": "2025-06-11",
+        "filePath": "🎓硕士研究生/👥组会记录/上科大组会9_2025-06-11.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "12:00",
+            "w": 107,
+            "c": 0
+          }
+        ],
+        "id": 29
+      },
+      {
+        "date": "2025-06-12",
+        "filePath": "🎓硕士研究生/👥组会记录/上科大组会9_2025-06-11.md",
+        "wordCountStart": 107,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "12:00",
+            "w": 99,
+            "c": 0
+          }
+        ],
+        "id": 30
+      },
+      {
+        "date": "2025-06-13",
+        "filePath": "🗿生活技巧/衣物挑选——个人向.md",
+        "wordCountStart": 128,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "12:00",
+            "w": 136,
+            "c": 0
+          }
+        ],
+        "id": 31
+      },
+      {
+        "date": "2025-06-13",
+        "filePath": "🎓硕士研究生/🛠️开发日记/WPF_PCV.md",
+        "wordCountStart": 2795,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "12:00",
+            "w": 93,
+            "c": 0
+          }
+        ],
+        "id": 32
+      },
+      {
+        "date": "2025-06-13",
+        "filePath": "🖥️专业技能/🔩CSharp/HelixToolkit.Wpf中文文档.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "12:00",
+            "w": 3801,
+            "c": 0
+          }
+        ],
+        "id": 33
+      },
+      {
+        "date": "2025-06-16",
+        "filePath": "🖥️专业技能/🔩CSharp/HelixToolkit.Wpf中文文档.md",
+        "wordCountStart": 3801,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "12:00",
+            "w": 1215,
+            "c": 0
+          }
+        ],
+        "id": 34
+      },
+      {
+        "date": "2025-06-16",
+        "filePath": "🎓硕士研究生/🛠️开发日记/WPF_PCV.md",
+        "wordCountStart": 2888,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "12:00",
+            "w": 24,
+            "c": 0
+          }
+        ],
+        "id": 35
+      },
+      {
+        "date": "2025-06-16",
+        "filePath": "🎓硕士研究生/👥组会记录/上科大组会9_2025-06-11.md",
+        "wordCountStart": 206,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "12:00",
+            "w": 20,
+            "c": 0
+          }
+        ],
+        "id": 36
+      },
+      {
+        "date": "2025-06-16",
+        "filePath": "draft.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "12:00",
+            "w": 279,
+            "c": 0
+          }
+        ],
+        "id": 37
+      },
+      {
+        "date": "2025-06-17",
+        "filePath": "🖥️专业技能/🌵Git/Git和Github的最佳实践.md",
+        "wordCountStart": 945,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "11:10",
+            "w": -101,
+            "c": 4368
+          },
+          {
+            "timeKey": "11:15",
+            "w": 745,
+            "c": 1624
+          },
+          {
+            "timeKey": "11:20",
+            "w": 0,
+            "c": 11
+          },
+          {
+            "timeKey": "11:30",
+            "w": -2,
+            "c": 1
+          },
+          {
+            "timeKey": "12:00",
+            "w": 602,
+            "c": 0
+          },
+          {
+            "timeKey": "17:00",
+            "w": 0,
+            "c": 0
+          }
+        ],
+        "id": 38
+      },
+      {
+        "date": "2025-06-17",
+        "filePath": "🖥️专业技能/🌵Git/'.gitignore'配置失效.md",
+        "wordCountStart": 647,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "12:00",
+            "w": -613,
+            "c": 0
+          }
+        ],
+        "id": 39
+      },
+      {
+        "date": "2025-06-17",
+        "filePath": "🖥️专业技能/🌵Git/Git理论知识.md",
+        "wordCountStart": 2914,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "12:00",
+            "w": -435,
+            "c": 0
+          }
+        ],
+        "id": 40
+      },
+      {
+        "date": "2025-06-17",
+        "filePath": "✅日程&日记/Tasks_2025-06-07.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "11:00",
+            "w": 0,
+            "c": 0
+          }
+        ],
+        "id": 41
+      },
+      {
+        "date": "2025-06-17",
+        "filePath": "🖥️专业技能/🌵Git/如何规范Git-Commit？.md",
+        "wordCountStart": 869,
+        "charCountStart": 1854,
+        "changes": [
+          {
+            "timeKey": "11:15",
+            "w": -834,
+            "c": -1714
+          },
+          {
+            "timeKey": "11:20",
+            "w": -35,
+            "c": -140
+          }
+        ],
+        "id": 42
+      },
+      {
+        "date": "2025-06-17",
+        "filePath": "🖥️专业技能/🔩CSharp/WPF学习笔记.md",
+        "wordCountStart": 255,
+        "charCountStart": 1728,
+        "changes": [],
+        "id": 43
+      },
+      {
+        "date": "2025-06-17",
+        "filePath": "🖥️专业技能/📦Npm/Npm&Pnpm的安装与配置.md",
+        "wordCountStart": 483,
+        "charCountStart": 1437,
+        "changes": [
+          {
+            "timeKey": "11:45",
+            "w": 0,
+            "c": 0
+          }
+        ],
+        "id": 44
+      },
+      {
+        "date": "2025-06-17",
+        "filePath": "🖥️专业技能/📦Npm/Npm发布自定义依赖包.md",
+        "wordCountStart": 37,
+        "charCountStart": 124,
+        "changes": [],
+        "id": 45
+      },
+      {
+        "date": "2025-06-17",
+        "filePath": "🖥️专业技能/🔩CSharp/HelixToolkit.Wpf中文文档.md",
+        "wordCountStart": 5016,
+        "charCountStart": 27487,
+        "changes": [],
+        "id": 46
+      },
+      {
+        "date": "2025-06-17",
+        "filePath": "🎓硕士研究生/🛠️开发日记/WPF_PCV.md",
+        "wordCountStart": 2912,
+        "charCountStart": 20949,
+        "changes": [
+          {
+            "timeKey": "15:20",
+            "w": 0,
+            "c": -1
+          }
+        ],
+        "id": 47
+      },
+      {
+        "date": "2025-06-17",
+        "filePath": "🎓硕士研究生/👥组会记录/上科大组会9_2025-06-11.md",
+        "wordCountStart": 226,
+        "charCountStart": 561,
+        "changes": [
+          {
+            "timeKey": "13:50",
+            "w": 1,
+            "c": -2
+          },
+          {
+            "timeKey": "14:40",
+            "w": -1,
+            "c": -1
+          },
+          {
+            "timeKey": "14:45",
+            "w": 20,
+            "c": 41
+          },
+          {
+            "timeKey": "17:35",
+            "w": -8,
+            "c": -10
+          },
+          {
+            "timeKey": "17:40",
+            "w": 0,
+            "c": 1
+          },
+          {
+            "timeKey": "17:45",
+            "w": 9,
+            "c": 41
+          }
+        ],
+        "id": 48
+      },
+      {
+        "date": "2025-06-17",
+        "filePath": "🎓硕士研究生/👥组会记录/上科大组会10_2025-06-17.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "13:55",
+            "w": 37,
+            "c": 126
+          },
+          {
+            "timeKey": "14:45",
+            "w": 15,
+            "c": 33
+          },
+          {
+            "timeKey": "14:50",
+            "w": 21,
+            "c": 54
+          },
+          {
+            "timeKey": "15:00",
+            "w": 41,
+            "c": 74
+          },
+          {
+            "timeKey": "15:05",
+            "w": 12,
+            "c": 22
+          },
+          {
+            "timeKey": "15:15",
+            "w": 10,
+            "c": 39
+          },
+          {
+            "timeKey": "17:35",
+            "w": -8,
+            "c": -9
+          },
+          {
+            "timeKey": "17:45",
+            "w": 15,
+            "c": 70
+          },
+          {
+            "timeKey": "17:50",
+            "w": 50,
+            "c": 81
+          }
+        ],
+        "id": 49
+      },
+      {
+        "date": "2025-06-17",
+        "filePath": "🎓硕士研究生/👥组会记录/上科大组会2_2025-04-29.md",
+        "wordCountStart": 54,
+        "charCountStart": 162,
+        "changes": [
+          {
+            "timeKey": "17:30",
+            "w": -8,
+            "c": -10
+          }
+        ],
+        "id": 50
+      },
+      {
+        "date": "2025-06-17",
+        "filePath": "🎓硕士研究生/👥组会记录/上科大组会3_2025-05-06.md",
+        "wordCountStart": 298,
+        "charCountStart": 1403,
+        "changes": [
+          {
+            "timeKey": "13:55",
+            "w": 0,
+            "c": -20
+          },
+          {
+            "timeKey": "14:00",
+            "w": 42,
+            "c": 50
+          },
+          {
+            "timeKey": "17:30",
+            "w": -50,
+            "c": -40
+          }
+        ],
+        "id": 51
+      },
+      {
+        "date": "2025-06-17",
+        "filePath": "🎓硕士研究生/👥组会记录/上科大组会4_2025-05-15.md",
+        "wordCountStart": 233,
+        "charCountStart": 631,
+        "changes": [
+          {
+            "timeKey": "17:30",
+            "w": -24,
+            "c": -30
+          }
+        ],
+        "id": 52
+      },
+      {
+        "date": "2025-06-17",
+        "filePath": "🎓硕士研究生/👥组会记录/上科大组会5_2025-05-20.md",
+        "wordCountStart": 330,
+        "charCountStart": 749,
+        "changes": [
+          {
+            "timeKey": "17:30",
+            "w": -16,
+            "c": -20
+          }
+        ],
+        "id": 53
+      },
+      {
+        "date": "2025-06-17",
+        "filePath": "✅日程&日记/Tasks_2025-05-20.md",
+        "wordCountStart": 48,
+        "charCountStart": 167,
+        "changes": [],
+        "id": 54
+      },
+      {
+        "date": "2025-06-17",
+        "filePath": "🎓硕士研究生/👥组会记录/上科大组会6_2025-05-22.md",
+        "wordCountStart": 85,
+        "charCountStart": 421,
+        "changes": [
+          {
+            "timeKey": "17:35",
+            "w": -20,
+            "c": -25
+          }
+        ],
+        "id": 55
+      },
+      {
+        "date": "2025-06-17",
+        "filePath": "🎓硕士研究生/👥组会记录/上科大组会8_2025-06-03.md",
+        "wordCountStart": 117,
+        "charCountStart": 354,
+        "changes": [
+          {
+            "timeKey": "17:35",
+            "w": -17,
+            "c": -28
+          }
+        ],
+        "id": 56
+      },
+      {
+        "date": "2025-06-17",
+        "filePath": "💻操作系统/💠Windows11/Microsoft Todo无法同步问题.md",
+        "wordCountStart": 474,
+        "charCountStart": 1158,
+        "changes": [
+          {
+            "timeKey": "17:55",
+            "w": 0,
+            "c": 0
+          }
+        ],
+        "id": 57
+      },
+      {
+        "date": "2025-06-19",
+        "filePath": "🗿生活技巧/衣物挑选——个人向.md",
+        "wordCountStart": 264,
+        "charCountStart": 1247,
+        "changes": [
+          {
+            "timeKey": "11:00",
+            "w": -136,
+            "c": -669
+          }
+        ],
+        "id": 60
+      },
+      {
+        "date": "2025-06-19",
+        "filePath": "🗿生活技巧/7000￥价位笔记本电脑选购指北.md",
+        "wordCountStart": 217,
+        "charCountStart": 1161,
+        "changes": [
+          {
+            "timeKey": "10:55",
+            "w": -217,
+            "c": -1161
+          }
+        ],
+        "id": 61
+      },
+      {
+        "date": "2025-06-19",
+        "filePath": "🎓硕士研究生/👥组会记录/上科大组会10_2025-06-17.md",
+        "wordCountStart": 193,
+        "charCountStart": 490,
+        "changes": [
+          {
+            "timeKey": "17:30",
+            "w": 22,
+            "c": 84
+          },
+          {
+            "timeKey": "18:00",
+            "w": 0,
+            "c": 0
+          },
+          {
+            "timeKey": "18:05",
+            "w": 24,
+            "c": 56
+          },
+          {
+            "timeKey": "18:10",
+            "w": 34,
+            "c": 103
+          }
+        ],
+        "id": 62
+      },
+      {
+        "date": "2025-06-19",
+        "filePath": "🎓硕士研究生/👥组会记录/上科大组会9_2025-06-11.md",
+        "wordCountStart": 247,
+        "charCountStart": 631,
+        "changes": [
+          {
+            "timeKey": "13:05",
+            "w": -1,
+            "c": 0
+          },
+          {
+            "timeKey": "13:10",
+            "w": 32,
+            "c": 49
+          },
+          {
+            "timeKey": "13:15",
+            "w": 29,
+            "c": 31
+          },
+          {
+            "timeKey": "17:25",
+            "w": -3,
+            "c": -4
+          },
+          {
+            "timeKey": "17:30",
+            "w": -2,
+            "c": 1
+          }
+        ],
+        "id": 63
+      },
+      {
+        "date": "2025-06-19",
+        "filePath": "🖥️专业技能/🔩CSharp/HelixToolkit.Wpf中文文档.md",
+        "wordCountStart": 5016,
+        "charCountStart": 27487,
+        "changes": [
+          {
+            "timeKey": "11:00",
+            "w": 0,
+            "c": 2
+          }
+        ],
+        "id": 64
+      },
+      {
+        "date": "2025-06-19",
+        "filePath": "🖥️专业技能/🌵Git/Git和Github的最佳实践.md",
+        "wordCountStart": 2189,
+        "charCountStart": 6004,
+        "changes": [],
+        "id": 65
+      },
+      {
+        "date": "2025-06-19",
+        "filePath": "🖥️专业技能/🌵Git/Git理论知识.md",
+        "wordCountStart": 2479,
+        "charCountStart": 5482,
+        "changes": [],
+        "id": 66
+      },
+      {
+        "date": "2025-06-19",
+        "filePath": "🤔反思和总结/💯考研/复试联系导师.md",
+        "wordCountStart": 357,
+        "charCountStart": 1611,
+        "changes": [],
+        "id": 67
+      },
+      {
+        "date": "2025-06-19",
+        "filePath": "🤔反思和总结/💯考研/英二90分经验.md",
+        "wordCountStart": 405,
+        "charCountStart": 707,
+        "changes": [],
+        "id": 68
+      },
+      {
+        "date": "2025-06-19",
+        "filePath": "🖥️专业技能/🔩CSharp/HelixToolKit属性文档(待整理).md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "11:10",
+            "w": 100718,
+            "c": 2344747
+          },
+          {
+            "timeKey": "11:15",
+            "w": -99,
+            "c": -3904
+          },
+          {
+            "timeKey": "11:20",
+            "w": -534,
+            "c": -4098
+          },
+          {
+            "timeKey": "11:25",
+            "w": 2,
+            "c": 8
+          }
+        ],
+        "id": 69
+      },
+      {
+        "date": "2025-06-19",
+        "filePath": "🖥️专业技能/🔩CSharp/WPF学习笔记.md",
+        "wordCountStart": 255,
+        "charCountStart": 1728,
+        "changes": [
+          {
+            "timeKey": "12:50",
+            "w": -37,
+            "c": -159
+          },
+          {
+            "timeKey": "13:00",
+            "w": 7,
+            "c": 12
+          }
+        ],
+        "id": 70
+      },
+      {
+        "date": "2025-06-19",
+        "filePath": "🎓硕士研究生/🛠️开发日记/WPF_PCV.md",
+        "wordCountStart": 2912,
+        "charCountStart": 20948,
+        "changes": [
+          {
+            "timeKey": "13:00",
+            "w": -2,
+            "c": 5
+          },
+          {
+            "timeKey": "13:25",
+            "w": 362,
+            "c": 4047
+          },
+          {
+            "timeKey": "13:30",
+            "w": 1455,
+            "c": 13124
+          },
+          {
+            "timeKey": "15:45",
+            "w": -4,
+            "c": -4
+          },
+          {
+            "timeKey": "17:25",
+            "w": 5,
+            "c": 16
+          },
+          {
+            "timeKey": "17:30",
+            "w": 25,
+            "c": 44
+          }
+        ],
+        "id": 71
+      },
+      {
+        "date": "2025-06-19",
+        "filePath": "🎓硕士研究生/👥组会记录/上科大组会8_2025-06-03.md",
+        "wordCountStart": 98,
+        "charCountStart": 329,
+        "changes": [
+          {
+            "timeKey": "15:45",
+            "w": -4,
+            "c": -4
+          },
+          {
+            "timeKey": "17:30",
+            "w": 0,
+            "c": 0
+          }
+        ],
+        "id": 72
+      },
+      {
+        "date": "2025-06-19",
+        "filePath": "🎓硕士研究生/👥组会记录/上科大组会6_2025-05-22.md",
+        "wordCountStart": 65,
+        "charCountStart": 396,
+        "changes": [],
+        "id": 73
+      },
+      {
+        "date": "2025-06-19",
+        "filePath": "🎓硕士研究生/🛠️开发日记/WPF_Comparison&Report模块.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "15:10",
+            "w": 27,
+            "c": 123
+          },
+          {
+            "timeKey": "15:20",
+            "w": 0,
+            "c": 6
+          },
+          {
+            "timeKey": "15:45",
+            "w": -4,
+            "c": -2
+          }
+        ],
+        "id": 74
+      },
+      {
+        "date": "2025-06-19",
+        "filePath": "✅日程&日记/Tasks_2025-06-05.md",
+        "wordCountStart": 38,
+        "charCountStart": 170,
+        "changes": [],
+        "id": 75
+      },
+      {
+        "date": "2025-06-19",
+        "filePath": "✅日程&日记/Tasks_2025-05-20.md",
+        "wordCountStart": 48,
+        "charCountStart": 169,
+        "changes": [],
+        "id": 76
+      },
+      {
+        "date": "2025-06-19",
+        "filePath": "✅日程&日记/Tasks_2025-05-16.md",
+        "wordCountStart": 85,
+        "charCountStart": 254,
+        "changes": [],
+        "id": 77
+      },
+      {
+        "date": "2025-06-19",
+        "filePath": "✅日程&日记/Tasks_2025-05-12.md",
+        "wordCountStart": 76,
+        "charCountStart": 231,
+        "changes": [],
+        "id": 78
+      },
+      {
+        "date": "2025-06-19",
+        "filePath": "✅日程&日记/Tasks_2025-05-10.md",
+        "wordCountStart": 113,
+        "charCountStart": 352,
+        "changes": [],
+        "id": 79
+      },
+      {
+        "date": "2025-06-19",
+        "filePath": "✅日程&日记/Tasks_2025-05-04.md",
+        "wordCountStart": 43,
+        "charCountStart": 164,
+        "changes": [],
+        "id": 80
+      },
+      {
+        "date": "2025-06-19",
+        "filePath": "✅日程&日记/日记汇总.md",
+        "wordCountStart": 4580,
+        "charCountStart": 5903,
+        "changes": [],
+        "id": 81
+      },
+      {
+        "date": "2025-06-20",
+        "filePath": "🎓硕士研究生/👥组会记录/上科大组会10_2025-06-17.md",
+        "wordCountStart": 273,
+        "charCountStart": 733,
+        "changes": [
+          {
+            "timeKey": "10:00",
+            "w": 14,
+            "c": 56
+          },
+          {
+            "timeKey": "16:55",
+            "w": 2,
+            "c": 12
+          }
+        ],
+        "id": 82
+      },
+      {
+        "date": "2025-06-20",
+        "filePath": "🎓硕士研究生/👥组会记录/上科大组会8_2025-06-03.md",
+        "wordCountStart": 94,
+        "charCountStart": 325,
+        "changes": [],
+        "id": 83
+      },
+      {
+        "date": "2025-06-20",
+        "filePath": "🎓硕士研究生/采购选品.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "14:15",
+            "w": 27,
+            "c": 97
+          },
+          {
+            "timeKey": "14:20",
+            "w": 16,
+            "c": 105
+          },
+          {
+            "timeKey": "16:15",
+            "w": 2,
+            "c": 16
+          },
+          {
+            "timeKey": "16:20",
+            "w": 40,
+            "c": 403
+          },
+          {
+            "timeKey": "16:25",
+            "w": 22,
+            "c": 139
+          },
+          {
+            "timeKey": "16:30",
+            "w": 41,
+            "c": 145
+          },
+          {
+            "timeKey": "16:35",
+            "w": 82,
+            "c": 197
+          },
+          {
+            "timeKey": "16:40",
+            "w": 5,
+            "c": 11
+          },
+          {
+            "timeKey": "16:45",
+            "w": 65,
+            "c": 301
+          },
+          {
+            "timeKey": "16:50",
+            "w": 5,
+            "c": 17
+          }
+        ],
+        "id": 84
+      },
+      {
+        "date": "2025-06-20",
+        "filePath": "🎓硕士研究生/上科大_奖学金详解.md",
+        "wordCountStart": 360,
+        "charCountStart": 613,
+        "changes": [],
+        "id": 85
+      },
+      {
+        "date": "2025-06-20",
+        "filePath": "🎓硕士研究生/🛠️开发日记/WPF_Comparison&Report模块.md",
+        "wordCountStart": 23,
+        "charCountStart": 127,
+        "changes": [],
+        "id": 86
+      },
+      {
+        "date": "2025-06-20",
+        "filePath": "🖥️专业技能/🔩CSharp/WPF学习笔记.md",
+        "wordCountStart": 225,
+        "charCountStart": 1581,
+        "changes": [
+          {
+            "timeKey": "17:30",
+            "w": 0,
+            "c": -225
+          },
+          {
+            "timeKey": "17:35",
+            "w": 6,
+            "c": 12
+          },
+          {
+            "timeKey": "17:40",
+            "w": 440,
+            "c": 3457
+          },
+          {
+            "timeKey": "17:55",
+            "w": 15,
+            "c": 38
+          },
+          {
+            "timeKey": "18:00",
+            "w": 443,
+            "c": 3643
+          },
+          {
+            "timeKey": "18:05",
+            "w": -3,
+            "c": -13
+          },
+          {
+            "timeKey": "18:40",
+            "w": 3,
+            "c": 22
+          }
+        ],
+        "id": 87
+      },
+      {
+        "date": "2025-06-21",
+        "filePath": "🖥️专业技能/🔩CSharp/WPF学习笔记.md",
+        "wordCountStart": 1129,
+        "charCountStart": 8515,
+        "changes": [
+          {
+            "timeKey": "17:55",
+            "w": 19,
+            "c": -6
+          },
+          {
+            "timeKey": "18:00",
+            "w": 91,
+            "c": 554
+          },
+          {
+            "timeKey": "18:05",
+            "w": 75,
+            "c": 739
+          },
+          {
+            "timeKey": "18:15",
+            "w": 7,
+            "c": 136
+          },
+          {
+            "timeKey": "18:20",
+            "w": 0,
+            "c": -13
+          },
+          {
+            "timeKey": "18:40",
+            "w": 0,
+            "c": 2
+          },
+          {
+            "timeKey": "18:45",
+            "w": 2,
+            "c": -13
+          },
+          {
+            "timeKey": "18:50",
+            "w": 26,
+            "c": 112
+          },
+          {
+            "timeKey": "18:55",
+            "w": 0,
+            "c": 1
+          },
+          {
+            "timeKey": "19:00",
+            "w": -43,
+            "c": -67
+          }
+        ],
+        "id": 89
+      },
+      {
+        "date": "2025-06-21",
+        "filePath": "🎓硕士研究生/👥组会记录/上科大组会8_2025-06-03.md",
+        "wordCountStart": 94,
+        "charCountStart": 325,
+        "changes": [],
+        "id": 90
+      },
+      {
+        "date": "2025-06-21",
+        "filePath": "🎓硕士研究生/👥组会记录/上科大组会11_2025-06-21_CSharp培训.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "19:00",
+            "w": 90,
+            "c": 233
+          },
+          {
+            "timeKey": "19:05",
+            "w": 22,
+            "c": 80
+          },
+          {
+            "timeKey": "19:10",
+            "w": 40,
+            "c": 95
+          },
+          {
+            "timeKey": "19:15",
+            "w": 74,
+            "c": 204
+          },
+          {
+            "timeKey": "19:20",
+            "w": 34,
+            "c": 45
+          },
+          {
+            "timeKey": "19:25",
+            "w": 42,
+            "c": 82
+          },
+          {
+            "timeKey": "19:30",
+            "w": 56,
+            "c": 68
+          },
+          {
+            "timeKey": "19:50",
+            "w": 0,
+            "c": -4
+          }
+        ],
+        "id": 91
+      },
+      {
+        "date": "2025-06-21",
+        "filePath": "🎓硕士研究生/👥组会记录/上科大组会10_2025-06-17.md",
+        "wordCountStart": 289,
+        "charCountStart": 801,
+        "changes": [
+          {
+            "timeKey": "19:45",
+            "w": 28,
+            "c": 57
+          }
+        ],
+        "id": 92
+      },
+      {
+        "date": "2025-06-22",
+        "filePath": "🎓硕士研究生/👥组会记录/上科大组会11_2025-06-21_CSharp培训.md",
+        "wordCountStart": 358,
+        "charCountStart": 803,
+        "changes": [],
+        "id": 93
+      },
+      {
+        "date": "2025-06-22",
+        "filePath": "🖥️专业技能/🔩CSharp/WPF学习笔记.md",
+        "wordCountStart": 1306,
+        "charCountStart": 9960,
+        "changes": [
+          {
+            "timeKey": "17:10",
+            "w": 9,
+            "c": 32
+          }
+        ],
+        "id": 94
+      },
+      {
+        "date": "2025-06-22",
+        "filePath": "🎓硕士研究生/👥组会记录/上科大组会10_2025-06-17.md",
+        "wordCountStart": 317,
+        "charCountStart": 858,
+        "changes": [
+          {
+            "timeKey": "17:10",
+            "w": -1,
+            "c": 0
+          }
+        ],
+        "id": 95
+      },
+      {
+        "date": "2025-06-23",
+        "filePath": "🖥️专业技能/🔩CSharp/WPF学习笔记.md",
+        "wordCountStart": 1315,
+        "charCountStart": 9992,
+        "changes": [],
+        "id": 98
+      },
+      {
+        "date": "2025-06-23",
+        "filePath": "🎓硕士研究生/👥组会记录/上科大组会8_2025-06-03.md",
+        "wordCountStart": 94,
+        "charCountStart": 325,
+        "changes": [],
+        "id": 99
+      },
+      {
+        "date": "2025-06-23",
+        "filePath": "🖥️专业技能/🌵Git/Git和Github的最佳实践.md",
+        "wordCountStart": 2189,
+        "charCountStart": 6004,
+        "changes": [],
+        "id": 100
+      },
+      {
+        "date": "2025-06-23",
+        "filePath": "🎓硕士研究生/采购选品.md",
+        "wordCountStart": 305,
+        "charCountStart": 1431,
+        "changes": [
+          {
+            "timeKey": "16:20",
+            "w": -305,
+            "c": -1431
+          }
+        ],
+        "id": 101
+      },
+      {
+        "date": "2025-06-23",
+        "filePath": "🎓硕士研究生/👥组会记录/上科大组会10_2025-06-17.md",
+        "wordCountStart": 316,
+        "charCountStart": 858,
+        "changes": [
+          {
+            "timeKey": "17:50",
+            "w": 3,
+            "c": 11
+          },
+          {
+            "timeKey": "17:55",
+            "w": 2,
+            "c": 12
+          },
+          {
+            "timeKey": "18:00",
+            "w": 14,
+            "c": 44
+          }
+        ],
+        "id": 102
+      },
+      {
+        "date": "2025-06-23",
+        "filePath": "🎓硕士研究生/🛠️开发日记/WPF_Comparison&Report模块.md",
+        "wordCountStart": 23,
+        "charCountStart": 127,
+        "changes": [],
+        "id": 103
+      },
+      {
+        "date": "2025-06-23",
+        "filePath": "🎓硕士研究生/🛠️开发日记/WPF_PCV.md",
+        "wordCountStart": 4753,
+        "charCountStart": 38180,
+        "changes": [],
+        "id": 104
+      },
+      {
+        "date": "2025-06-24",
+        "filePath": "🖥️专业技能/🔩CSharp/WPF学习笔记.md",
+        "wordCountStart": 1315,
+        "charCountStart": 9992,
+        "changes": [],
+        "id": 105
+      },
+      {
+        "date": "2025-06-24",
+        "filePath": "🎓硕士研究生/👥组会记录/上科大组会11_2025-06-21_CSharp培训.md",
+        "wordCountStart": 358,
+        "charCountStart": 803,
+        "changes": [
+          {
+            "timeKey": "05:50",
+            "w": -8,
+            "c": 16
+          }
+        ],
+        "id": 106
+      },
+      {
+        "date": "2025-06-24",
+        "filePath": "🎓硕士研究生/👥组会记录/上科大组会10_2025-06-17.md",
+        "wordCountStart": 335,
+        "charCountStart": 925,
+        "changes": [
+          {
+            "timeKey": "05:50",
+            "w": 2,
+            "c": 12
+          },
+          {
+            "timeKey": "06:05",
+            "w": 140,
+            "c": 1923
+          },
+          {
+            "timeKey": "06:10",
+            "w": -140,
+            "c": -1923
+          },
+          {
+            "timeKey": "10:35",
+            "w": 10,
+            "c": 56
+          },
+          {
+            "timeKey": "12:55",
+            "w": 5,
+            "c": -13
+          },
+          {
+            "timeKey": "13:00",
+            "w": 0,
+            "c": 0
+          },
+          {
+            "timeKey": "13:25",
+            "w": -20,
+            "c": -64
+          },
+          {
+            "timeKey": "17:25",
+            "w": 0,
+            "c": 0
+          }
+        ],
+        "id": 107
+      },
+      {
+        "date": "2025-06-24",
+        "filePath": "🎓硕士研究生/🛠️开发日记/WPF_Comparison&Report模块.md",
+        "wordCountStart": 23,
+        "charCountStart": 127,
+        "changes": [
+          {
+            "timeKey": "06:10",
+            "w": -23,
+            "c": -127
+          }
+        ],
+        "id": 108
+      },
+      {
+        "date": "2025-06-24",
+        "filePath": "🎓硕士研究生/🛠️开发日记/WPF_PCV的类图.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "06:10",
+            "w": 163,
+            "c": 2021
+          },
+          {
+            "timeKey": "06:20",
+            "w": 17,
+            "c": 54
+          },
+          {
+            "timeKey": "07:50",
+            "w": 2,
+            "c": 6
+          },
+          {
+            "timeKey": "07:55",
+            "w": 0,
+            "c": 4
+          },
+          {
+            "timeKey": "10:00",
+            "w": 0,
+            "c": 0
+          },
+          {
+            "timeKey": "13:05",
+            "w": -159,
+            "c": -1984
+          },
+          {
+            "timeKey": "13:10",
+            "w": 1038,
+            "c": 2655
+          },
+          {
+            "timeKey": "13:15",
+            "w": -1038,
+            "c": -2656
+          },
+          {
+            "timeKey": "14:40",
+            "w": 8,
+            "c": 49
+          },
+          {
+            "timeKey": "14:45",
+            "w": 1,
+            "c": 13
+          },
+          {
+            "timeKey": "14:50",
+            "w": 0,
+            "c": 0
+          },
+          {
+            "timeKey": "15:05",
+            "w": -9,
+            "c": -62
+          }
+        ],
+        "id": 109
+      },
+      {
+        "date": "2025-06-24",
+        "filePath": "🎓硕士研究生/🛠️开发日记/WPF_PCV.md",
+        "wordCountStart": 4753,
+        "charCountStart": 38180,
+        "changes": [
+          {
+            "timeKey": "06:10",
+            "w": -2778,
+            "c": -20609
+          },
+          {
+            "timeKey": "06:15",
+            "w": 14,
+            "c": 83
+          }
+        ],
+        "id": 110
+      },
+      {
+        "date": "2025-06-24",
+        "filePath": "🎓硕士研究生/👥组会记录/上科大组会9_2025-06-11.md",
+        "wordCountStart": 302,
+        "charCountStart": 708,
+        "changes": [],
+        "id": 111
+      },
+      {
+        "date": "2025-06-24",
+        "filePath": "🎓硕士研究生/👥组会记录/上科大组会12_2025-06-24、25.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "10:10",
+            "w": 37,
+            "c": 126
+          },
+          {
+            "timeKey": "10:15",
+            "w": 8,
+            "c": 13
+          },
+          {
+            "timeKey": "10:20",
+            "w": 14,
+            "c": 16
+          },
+          {
+            "timeKey": "10:25",
+            "w": 36,
+            "c": 66
+          },
+          {
+            "timeKey": "10:30",
+            "w": -14,
+            "c": -22
+          },
+          {
+            "timeKey": "10:35",
+            "w": 11,
+            "c": 12
+          },
+          {
+            "timeKey": "10:40",
+            "w": 6,
+            "c": 10
+          },
+          {
+            "timeKey": "10:45",
+            "w": 0,
+            "c": 4
+          },
+          {
+            "timeKey": "10:50",
+            "w": 11,
+            "c": 34
+          },
+          {
+            "timeKey": "10:55",
+            "w": 15,
+            "c": 36
+          },
+          {
+            "timeKey": "12:50",
+            "w": 0,
+            "c": 3
+          },
+          {
+            "timeKey": "12:55",
+            "w": 4,
+            "c": 19
+          },
+          {
+            "timeKey": "13:05",
+            "w": 3,
+            "c": 15
+          },
+          {
+            "timeKey": "13:10",
+            "w": 0,
+            "c": -2
+          },
+          {
+            "timeKey": "15:05",
+            "w": 2,
+            "c": 2
+          },
+          {
+            "timeKey": "15:10",
+            "w": 2,
+            "c": 1
+          },
+          {
+            "timeKey": "16:15",
+            "w": 12,
+            "c": 27
+          },
+          {
+            "timeKey": "16:20",
+            "w": 5,
+            "c": 18
+          },
+          {
+            "timeKey": "16:25",
+            "w": 17,
+            "c": 25
+          },
+          {
+            "timeKey": "16:30",
+            "w": 99,
+            "c": 128
+          },
+          {
+            "timeKey": "16:35",
+            "w": 109,
+            "c": 128
+          },
+          {
+            "timeKey": "16:40",
+            "w": 111,
+            "c": 135
+          },
+          {
+            "timeKey": "17:25",
+            "w": 32,
+            "c": 43
+          },
+          {
+            "timeKey": "17:30",
+            "w": -4,
+            "c": -5
+          }
+        ],
+        "id": 112
+      },
+      {
+        "date": "2025-06-24",
+        "filePath": "🎓硕士研究生/👥组会记录/上科大组会8_2025-06-03.md",
+        "wordCountStart": 89,
+        "charCountStart": 321,
+        "changes": [
+          {
+            "timeKey": "12:55",
+            "w": 17,
+            "c": 23
+          }
+        ],
+        "id": 113
+      },
+      {
+        "date": "2025-06-24",
+        "filePath": "🖥️专业技能/🌵Git/Git和Github的最佳实践.md",
+        "wordCountStart": 2189,
+        "charCountStart": 6004,
+        "changes": [
+          {
+            "timeKey": "14:20",
+            "w": 0,
+            "c": 0
+          },
+          {
+            "timeKey": "15:05",
+            "w": 9,
+            "c": 64
+          },
+          {
+            "timeKey": "18:15",
+            "w": 0,
+            "c": 0
+          }
+        ],
+        "id": 114
+      },
+      {
+        "date": "2025-06-24",
+        "filePath": "🖥️专业技能/🧰软件工程/如何做好UML类图？.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "13:15",
+            "w": 965,
+            "c": 2437
+          },
+          {
+            "timeKey": "13:25",
+            "w": 0,
+            "c": 0
+          }
+        ],
+        "id": 115
+      },
+      {
+        "date": "2025-06-24",
+        "filePath": "🖥️专业技能/🌵Git/Git理论知识.md",
+        "wordCountStart": 2479,
+        "charCountStart": 5482,
+        "changes": [
+          {
+            "timeKey": "18:00",
+            "w": 10,
+            "c": 67
+          },
+          {
+            "timeKey": "18:05",
+            "w": -8,
+            "c": -35
+          }
+        ],
+        "id": 116
+      },
+      {
+        "date": "2025-06-25",
+        "filePath": "🖥️专业技能/📦Npm/Npm发布自定义依赖包.md",
+        "wordCountStart": 37,
+        "charCountStart": 124,
+        "changes": [],
+        "id": 120
+      },
+      {
+        "date": "2025-06-25",
+        "filePath": "🎓硕士研究生/👥组会记录/上科大组会12_2025-06-24、25.md",
+        "wordCountStart": 516,
+        "charCountStart": 832,
+        "changes": [
+          {
+            "timeKey": "12:10",
+            "w": 2,
+            "c": 6
+          },
+          {
+            "timeKey": "13:00",
+            "w": 14,
+            "c": 38
+          },
+          {
+            "timeKey": "13:05",
+            "w": 18,
+            "c": 31
+          },
+          {
+            "timeKey": "13:15",
+            "w": 90,
+            "c": 208
+          },
+          {
+            "timeKey": "13:20",
+            "w": 0,
+            "c": 0
+          },
+          {
+            "timeKey": "18:50",
+            "w": 2,
+            "c": 13
+          },
+          {
+            "timeKey": "18:55",
+            "w": 18,
+            "c": 48
+          },
+          {
+            "timeKey": "23:30",
+            "w": 0,
+            "c": 0
+          }
+        ],
+        "id": 121
+      },
+      {
+        "date": "2025-06-25",
+        "filePath": "🖥️专业技能/🧰软件工程/如何做好UML类图？.md",
+        "wordCountStart": 965,
+        "charCountStart": 2437,
+        "changes": [
+          {
+            "timeKey": "17:25",
+            "w": -965,
+            "c": -2437
+          }
+        ],
+        "id": 122
+      },
+      {
+        "date": "2025-06-25",
+        "filePath": "🎓硕士研究生/👥组会记录/上科大组会13_2025-06-26_类图汇报.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "09:30",
+            "w": 6,
+            "c": 8
+          },
+          {
+            "timeKey": "09:40",
+            "w": -6,
+            "c": -8
+          }
+        ],
+        "id": 123
+      },
+      {
+        "date": "2025-06-25",
+        "filePath": "🎓硕士研究生/👥组会记录/上科大组会8_2025-06-03.md",
+        "wordCountStart": 106,
+        "charCountStart": 344,
+        "changes": [
+          {
+            "timeKey": "09:40",
+            "w": 0,
+            "c": -1
+          },
+          {
+            "timeKey": "09:45",
+            "w": 0,
+            "c": 1
+          }
+        ],
+        "id": 124
+      },
+      {
+        "date": "2025-06-25",
+        "filePath": "🎓硕士研究生/👥组会记录/上科大组会10_2025-06-17.md",
+        "wordCountStart": 332,
+        "charCountStart": 916,
+        "changes": [
+          {
+            "timeKey": "13:00",
+            "w": -14,
+            "c": -43
+          },
+          {
+            "timeKey": "13:05",
+            "w": 21,
+            "c": 60
+          },
+          {
+            "timeKey": "13:15",
+            "w": 13,
+            "c": 22
+          }
+        ],
+        "id": 125
+      },
+      {
+        "date": "2025-06-25",
+        "filePath": "🎓硕士研究生/🛠️开发日记/WPF_PCV的类图.md",
+        "wordCountStart": 23,
+        "charCountStart": 100,
+        "changes": [
+          {
+            "timeKey": "00:00",
+            "w": 565,
+            "c": 2054
+          },
+          {
+            "timeKey": "00:05",
+            "w": -91,
+            "c": -206
+          },
+          {
+            "timeKey": "00:15",
+            "w": 640,
+            "c": 2112
+          },
+          {
+            "timeKey": "00:20",
+            "w": -161,
+            "c": -546
+          },
+          {
+            "timeKey": "00:25",
+            "w": 684,
+            "c": 2297
+          },
+          {
+            "timeKey": "00:30",
+            "w": -4,
+            "c": 21
+          },
+          {
+            "timeKey": "00:35",
+            "w": 380,
+            "c": 1514
+          },
+          {
+            "timeKey": "00:45",
+            "w": 792,
+            "c": 1986
+          },
+          {
+            "timeKey": "14:30",
+            "w": 138,
+            "c": 166
+          },
+          {
+            "timeKey": "14:35",
+            "w": 164,
+            "c": 218
+          },
+          {
+            "timeKey": "14:40",
+            "w": 211,
+            "c": 256
+          },
+          {
+            "timeKey": "14:45",
+            "w": 174,
+            "c": 192
+          },
+          {
+            "timeKey": "14:50",
+            "w": 269,
+            "c": 313
+          },
+          {
+            "timeKey": "14:55",
+            "w": 141,
+            "c": 185
+          },
+          {
+            "timeKey": "15:00",
+            "w": 180,
+            "c": 214
+          },
+          {
+            "timeKey": "15:50",
+            "w": 254,
+            "c": 3924
+          },
+          {
+            "timeKey": "15:55",
+            "w": 289,
+            "c": 839
+          },
+          {
+            "timeKey": "17:25",
+            "w": 918,
+            "c": 3743
+          },
+          {
+            "timeKey": "17:45",
+            "w": -1120,
+            "c": -3393
+          },
+          {
+            "timeKey": "17:50",
+            "w": 907,
+            "c": 3677
+          },
+          {
+            "timeKey": "18:45",
+            "w": -144,
+            "c": -204
+          },
+          {
+            "timeKey": "23:45",
+            "w": 11,
+            "c": 13
+          }
+        ],
+        "id": 126
+      },
+      {
+        "date": "2025-06-25",
+        "filePath": "🎓硕士研究生/👥组会记录/上科大组会11_2025-06-21_CSharp培训.md",
+        "wordCountStart": 350,
+        "charCountStart": 819,
+        "changes": [],
+        "id": 127
+      },
+      {
+        "date": "2025-06-25",
+        "filePath": "🎓硕士研究生/🛠️开发日记/WPF_PCV.md",
+        "wordCountStart": 1989,
+        "charCountStart": 17654,
+        "changes": [],
+        "id": 128
+      },
+      {
+        "date": "2025-06-26",
+        "filePath": "🎓硕士研究生/👥组会记录/上科大组会11_2025-06-21_CSharp培训.md",
+        "wordCountStart": 350,
+        "charCountStart": 819,
+        "changes": [],
+        "id": 129
+      },
+      {
+        "date": "2025-06-26",
+        "filePath": "🎓硕士研究生/🛠️开发日记/WPF_PCV的类图.md",
+        "wordCountStart": 5220,
+        "charCountStart": 19475,
+        "changes": [
+          {
+            "timeKey": "12:05",
+            "w": 0,
+            "c": -50
+          },
+          {
+            "timeKey": "13:05",
+            "w": -84,
+            "c": -163
+          },
+          {
+            "timeKey": "13:10",
+            "w": -3,
+            "c": 6
+          },
+          {
+            "timeKey": "13:15",
+            "w": -30,
+            "c": -88
+          },
+          {
+            "timeKey": "13:25",
+            "w": 0,
+            "c": 14
+          }
+        ],
+        "id": 131
+      },
+      {
+        "date": "2025-06-26",
+        "filePath": "🖥️专业技能/🌵Git/Git和Github的最佳实践.md",
+        "wordCountStart": 2198,
+        "charCountStart": 6068,
+        "changes": [],
+        "id": 132
+      },
+      {
+        "date": "2025-06-26",
+        "filePath": "🎓硕士研究生/👥组会记录/上科大组会12_2025-06-24、25.md",
+        "wordCountStart": 662,
+        "charCountStart": 1188,
+        "changes": [],
+        "id": 133
+      },
+      {
+        "date": "2025-06-26",
+        "filePath": "🎓硕士研究生/👥组会记录/上科大组会13_2025-06-26_类图汇报.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "14:55",
+            "w": 13,
+            "c": 15
+          },
+          {
+            "timeKey": "15:05",
+            "w": 0,
+            "c": 2
+          },
+          {
+            "timeKey": "15:10",
+            "w": 37,
+            "c": 126
+          },
+          {
+            "timeKey": "18:10",
+            "w": 22,
+            "c": 29
+          },
+          {
+            "timeKey": "18:15",
+            "w": 13,
+            "c": 35
+          }
+        ],
+        "id": 134
+      },
+      {
+        "date": "2025-06-27",
+        "filePath": "🤔反思和总结/🥰情感/如何正确看待失败的恋爱经历.md",
+        "wordCountStart": 492,
+        "charCountStart": 662,
+        "changes": [
+          {
+            "timeKey": "10:10",
+            "w": -492,
+            "c": -662
+          }
+        ],
+        "id": 137
+      },
+      {
+        "date": "2025-06-27",
+        "filePath": "🤔反思和总结/📈个人成长/自我剖析.md",
+        "wordCountStart": 762,
+        "charCountStart": 1130,
+        "changes": [
+          {
+            "timeKey": "10:10",
+            "w": -762,
+            "c": -1130
+          }
+        ],
+        "id": 138
+      },
+      {
+        "date": "2025-06-27",
+        "filePath": "🤔反思和总结/💯考研/🗃️复试资料整理/面试问题准备.md",
+        "wordCountStart": 4190,
+        "charCountStart": 9676,
+        "changes": [
+          {
+            "timeKey": "10:10",
+            "w": -104,
+            "c": -503
+          }
+        ],
+        "id": 139
+      },
+      {
+        "date": "2025-06-27",
+        "filePath": "🤔反思和总结/💯考研/🗃️复试资料整理/专业英语名词.md",
+        "wordCountStart": 2035,
+        "charCountStart": 17666,
+        "changes": [],
+        "id": 140
+      },
+      {
+        "date": "2025-06-27",
+        "filePath": "🤔反思和总结/💯考研/复试联系导师.md",
+        "wordCountStart": 357,
+        "charCountStart": 1611,
+        "changes": [
+          {
+            "timeKey": "10:10",
+            "w": -357,
+            "c": -1611
+          }
+        ],
+        "id": 141
+      }
+    ],
+    "daysWithCompletedGoal": [
+      "2025-05-20",
+      "2025-06-10",
+      "2025-06-13",
+      "2025-06-16",
+      "2025-06-19",
+      "2025-06-20",
+      "2025-06-21",
+      "2025-06-25"
+    ]
+  }
+}

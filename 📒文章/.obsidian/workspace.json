@@ -1,0 +1,459 @@
+{
+  "main": {
+    "id": "69605880f4f49a34",
+    "type": "split",
+    "children": [
+      {
+        "id": "0b2d07c2a38a76e6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2543bdd7483e6223",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🖥️专业技能/🌵Git/Git和Github的最佳实践.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Git和Github的最佳实践"
+            }
+          },
+          {
+            "id": "56691d32bd870bfa",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🖥️专业技能/🔩CSharp/WPF学习笔记.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "WPF学习笔记"
+            }
+          },
+          {
+            "id": "dee275cda5a469a8",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🎓硕士研究生/🛠️开发日记/WPF_PCV.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "WPF_PCV"
+            }
+          },
+          {
+            "id": "ccc241b5a97f4607",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🎓硕士研究生/🛠️开发日记/WPF_PCV的类图.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "WPF_PCV的类图"
+            }
+          },
+          {
+            "id": "bda729cd9f5974ae",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🎓硕士研究生/👥组会记录/上科大组会12_2025-06-24、25.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "上科大组会12_2025-06-24、25"
+            }
+          },
+          {
+            "id": "dacfa046f2bd99b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🗿生活技巧/衣物挑选——个人向.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "衣物挑选——个人向"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "db890d315716b235",
+    "type": "split",
+    "children": [
+      {
+        "id": "76fdd7f284d11b81",
+        "type": "tabs",
+        "dimension": 69.98269896193771,
+        "children": [
+          {
+            "id": "fff84b784abc86e6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": true
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "2a68444a5a6cc073",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      },
+      {
+        "id": "4b5a8d2810383393",
+        "type": "tabs",
+        "dimension": 30.017301038062282,
+        "children": [
+          {
+            "id": "5283c8bbbda99ee7",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 351.50499725341797
+  },
+  "right": {
+    "id": "612f978ab273423b",
+    "type": "split",
+    "children": [
+      {
+        "id": "0c06364c6f2f5bab",
+        "type": "tabs",
+        "dimension": 55.02742230347349,
+        "children": [
+          {
+            "id": "b1c8a3a1485a2f14",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "🗿生活技巧/衣物挑选——个人向.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "衣物挑选——个人向 的大纲"
+            }
+          },
+          {
+            "id": "d6bf7c2abf658a4e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "e38a1f57fc18f570",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "插件不再活动"
+            }
+          }
+        ]
+      },
+      {
+        "id": "e75443fdc8b99d53",
+        "type": "tabs",
+        "dimension": 44.97257769652651,
+        "children": [
+          {
+            "id": "79ec441c44eafef2",
+            "type": "leaf",
+            "state": {
+              "type": "keep-the-rhythm",
+              "state": {},
+              "icon": "calendar-days",
+              "title": "Keep the Rhythm"
+            }
+          },
+          {
+            "id": "5aa7b7632df70aca",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "🖥️专业技能/🔩CSharp/WPF开发PCV日记.md",
+                "options": {
+                  "collapse-filter": false,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": false,
+                  "colorGroups": [],
+                  "collapse-display": false,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": false,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.7869948042779547,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "WPF开发PCV日记 的关系图"
+            }
+          },
+          {
+            "id": "f8cd7ceaf2c62841",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "插件不再活动"
+            }
+          },
+          {
+            "id": "75068d2eb2f74196",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "6f158c44eceb3761",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "1c58330dd12f0af6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 350.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "random-note:开始漫游笔记": false,
+      "obsidian42-brat:BRAT": false,
+      "youhavebeenstaring-plugin:Start/stop staring counter": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "marp-slides:Show Slide Preview": false,
+      "keep-the-rhythm:Word Count Stats": false,
+      "github-sync:Sync with Remote": false
+    }
+  },
+  "active": "dacfa046f2bd99b3",
+  "lastOpenFiles": [
+    "🤔反思和总结/💯考研/🗃️复试资料整理/专业英语名词.md",
+    "🤔反思和总结/💯考研/复试联系导师.md",
+    "🤔反思和总结/💯考研/🗃️复试资料整理/面试问题准备.md",
+    "🤔反思和总结/📈个人成长/自我剖析.md",
+    "🤔反思和总结/🥰情感/如何正确看待失败的恋爱经历.md",
+    "🎓硕士研究生/🛠️开发日记/WPF_PCV的类图.md",
+    "🎓硕士研究生/👥组会记录/上科大组会12_2025-06-24、25.md",
+    "🎓硕士研究生/👥组会记录/上科大组会13_2025-06-26_类图汇报.md",
+    "🎓硕士研究生/👥组会记录/上科大组会11_2025-06-21_CSharp培训.md",
+    "🖥️专业技能/🌵Git/Git和Github的最佳实践.md",
+    "🎓硕士研究生/🛠️开发日记/WPF_PCV.md",
+    "🖥️专业技能/🧰软件工程/如何做好UML类图？.md",
+    "🎓硕士研究生/👥组会记录/上科大组会10_2025-06-17.md",
+    "🎓硕士研究生/👥组会记录/上科大组会8_2025-06-03.md",
+    "🖥️专业技能/📦Npm/Npm发布自定义依赖包.md",
+    "🖥️专业技能/📦Npm/Npm&Pnpm的安装与配置.md",
+    "✅日程&日记/日记汇总.md",
+    "🖥️专业技能/🌵Git/Git理论知识.md",
+    "🖥️专业技能/🔩CSharp/WPF学习笔记.md",
+    "🎓硕士研究生/👥组会记录/上科大组会9_2025-06-11.md",
+    "🎓硕士研究生/🛠️开发日记/assets/wpf_pcv的类图/WPF_PCV的类图.png",
+    "🎓硕士研究生/🛠️开发日记/assets/wpf_pcv的类图",
+    "🎓硕士研究生/🛠️开发日记/assets",
+    "🎓硕士研究生/🛠️开发日记/WPF_Comparison&Report模块.md",
+    "🖥️专业技能/🧰软件工程/~$SE-04可行性研究及UML概述.pptx",
+    "🖥️专业技能/🧰软件工程/SE-04可行性研究及UML概述~41ECD.tmp",
+    "🎓硕士研究生/👥组会记录/assets/上科大组会11_2025-06-21_csharp培训",
+    "🎓硕士研究生/采购选品.md",
+    "🎓硕士研究生/👥组会记录/assets/上科大组会11_2025-06-21_csharp培训/20250621_191042.png",
+    "🎓硕士研究生/👥组会记录/assets/上科大组会11_2025-06-21_csharp培训/20250621_190927.png",
+    "🎓硕士研究生/👥组会记录/assets/上科大组会11_2025-06-21_师兄培训",
+    "🎓硕士研究生/👥组会记录/assets/上科大组会11_2025-06-21_师兄培训/20250621_190751.png",
+    "🖥️专业技能/🔩CSharp/assets/wpf学习笔记/20250621_185946.webp",
+    "🎓硕士研究生/上科大_奖学金详解.md",
+    "🎓硕士研究生/assets/采购选品/20250620_164859.png",
+    "🎓硕士研究生/assets/采购选品/20250620_163949.png",
+    "🎓硕士研究生/assets/采购选品/20250620_163920.png",
+    "🎓硕士研究生/assets/采购选品",
+    "🎓硕士研究生/assets",
+    "✅日程&日记/Tasks_2025-05-04.md",
+    "✅日程&日记/Tasks_2025-05-10.md",
+    "✅日程&日记/Tasks_2025-05-12.md",
+    "🖥️专业技能/🧰软件工程/~$SE-06需求分析2.pptx",
+    "🖥️专业技能/🧰软件工程/SE-08需求分析4.pdf",
+    "🖥️专业技能/🔩CSharp/assets/helixtoolkit属性文档(待整理)/20250619_111542.png",
+    "🖥️专业技能/🔩CSharp/assets/helixtoolkit.wpf中文文档/20250613_185801.gif",
+    "未命名.canvas"
+  ]
+}

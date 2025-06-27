@@ -1,7 +1,7 @@
 ---
 title: Powershell配置和美化方案
 createAt: 2024-04-24 18:03:36
-updateAt: 2025-04-15 20:20:51
+updateAt: 2025-05-19 21:38:56
 tags:
   - 工具
   - Windows
@@ -20,10 +20,10 @@ tags:
 
 先看配置美化完成的效果
 
-- Windows 终端窗口（有背景是因为终端窗口透明，后面是我的桌面壁纸）
-![](assets/1-powershell配置和美化方案/20250413_221859.png)
+- Windows 终端窗口（有背景是因为终端窗口透明，后面是我的桌面**壁纸**）
+![](assets/1-powershell配置和美化方案/终端样式.png)
 - VSCode 自带终端
-![](assets/1-powershell配置和美化方案/20250413_221939.png)
+![](assets/1-powershell配置和美化方案/vscode终端样式.png)
 是不是比原生的好看呢？接下来看看具体如何配置吧！如果你只是想复刻我的样式，请直接跳转这里： [复刻我的配置](#复刻我的配置)
 
 ## 安装 Powershell 7
@@ -59,6 +59,12 @@ Install-Module -Name posh-git -Force
 ```
 
 ### 安装 `Oh-my-posh`
+
+信任 `PSGallery` 库
+
+```sh [powershell]
+Set-PSRepository -Name PSGallery -InstallationPolicy Trusted
+```
 
 在 `Powershell` 中运行以下命令，耐心等待安装成功
 
@@ -101,6 +107,43 @@ Get-PoshThemes
 
 如果你觉得终端观看各种主题不太清楚，可以到官方文档 [Themes | Oh My Posh](https://ohmyposh.dev/docs/themes) 查看。
 
+::: details 运行 `Get-PoshThemes` 报错？
+
+报错显示如下
+
+```sh [powershell]
+╭─ RyanJoy 19/05/2025 08:37
+├─In  ~
+╰─ Get-PoshThemes
+Get-PoshThemes: The term 'Get-PoshThemes' is not recognized as a name of a cmdlet, function, script file, or executable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+```
+
+有可能是 `oh-my-posh` 未能安装成功，运行以下命令进行验证
+
+```sh [powershell]
+Get-Module -ListAvailable -Name oh-my-posh
+```
+
+如果安装失败，则没有输出；如果安装成功，则输出如下
+
+```sh [powershell]
+╭─ RyanJoy 19/05/2025 16:59
+├─In  ~
+╰─ Get-Module -ListAvailable -Name oh-my-posh
+
+    Directory: C:\Users\RyanJoy\Documents\PowerShell\Modules
+
+ModuleType Version PreRelease    Name    PSEdition ExportedCommands
+---------- ------- ---------- ---------- --------- ----------------
+  Script   7.85.2             oh-my-posh    Desk    Set-PoshPrompt
+``` 
+
+如果安装失败，则请你重新安装。安装完毕后，重试 `Get-PoshThemes` 命令进行验证。
+
+如果你还有任何问题，欢迎评论指出。
+
+:::
+
 挑选你喜欢的主题，并记住主题名字，这里我们以 `neko` 为例。
 
 终端运行：
@@ -121,7 +164,7 @@ oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/neko.omp.json" | Invoke-Exp
 
 ## 复刻我的配置
 
-这里提供几个关键文件
+这里提供几个关键文件，只要你配置完全了一下三个文件，那么就能得到我的样式效果了。
 
 ::: code-group
 
@@ -164,97 +207,103 @@ oh-my-posh init pwsh --config 'C:\Users\RyanJoy\AppData\Local\Programs\oh-my-pos
 ```json [ryanjoy.omp.json]
 // C:\Users\RyanJoy\AppData\Local\Programs\oh-my-posh\themes\ryanjoy.omp.json
 {
-    "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
-    "blocks": [
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "blocks": [
+    {
+      "alignment": "left",
+      "segments": [
         {
-            "alignment": "left",
-            "segments": [
-                {
-                    "foreground": "#45F1C2",
-                    "style": "plain",
-                    "template": "\u256d\u2500",
-                    "type": "text"
-                },
-                {
-                    "foreground": "#45F1C2",
-                    "style": "plain",
-                    "template": "\ueb99 RyanJoy",
-                    "type": "session"
-                },
-                {
-                    "foreground": "#bc93ff",
-                    "properties": {
-                        "time_format": "<#ffffff>on</> 02/01/2006 <#ffffff>at</> 15:04"
-                    },
-                    "style": "diamond",
-                    "template": " {{ .CurrentDate | date .Format }} ",
-                    "type": "time"
-                }
-            ],
-            "type": "prompt"
+          "foreground": "#45F1C2",
+          "style": "plain",
+          "template": "\u256d\u2500",
+          "type": "text"
         },
         {
-            "alignment": "left",
-            "newline": true,
-            "segments": [
-                {
-                    "foreground": "#45F1C2",
-                    "style": "plain",
-                    "template": "\u251c\u2500",
-                    "type": "text"
-                },
-                {
-                    "foreground": "#0CA0D8",
-                    "properties": {
-                        "folder_separator_icon": "/",
-                        "style": "full"
-                    },
-                    "style": "plain",
-                    "template": "<#ef5350>In</> \uf07b {{ .Path }} ",
-                    "type": "path"
-                },
-                {
-                    "foreground": "#14A5AE",
-                    "powerline_symbol": "\ue0b0",
-                    "properties": {
-                        "fetch_stash_count": true,
-                        "fetch_upstream_icon": true
-                    },
-                    "style": "plain",
-                    "template": "<#ef5350>on branch</> {{ .UpstreamIcon }}{{ .HEAD }}{{ if gt .StashCount 0 }} \ueb4b {{ .StashCount }}{{ end }}{{ if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Working.Changed }} \uf044 {{ .Working.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }} \uf046 {{ .Staging.String }}{{ end }}",
-                    "type": "git"
-                }
-            ],
-            "type": "prompt"
+          "foreground": "#45F1C2",
+          "style": "plain",
+          "template": "\ueb99 RyanJoy",
+          "type": "session"
         },
         {
-            "alignment": "left",
-            "newline": true,
-            "segments": [
-                {
-                    "foreground": "#45F1C2",
-                    "style": "plain",
-                    "template": "\u2570\u2500",
-                    "type": "text"
-                },
-                {
-                    "foreground": "#ffffff",
-                    "foreground_templates": [
-                        "{{ if gt .Code 0 }}#ef5350{{ end }}"
-                    ],
-                    "properties": {
-                        "always_enabled": true
-                    },
-                    "style": "plain",
-                    "template": "\ue285\ueab6 ",
-                    "type": "status"
-                }
-            ],
-            "type": "prompt"
+          "foreground": "#bc93ff",
+          "properties": {
+            "time_format": "02/01/2006 15:04"
+          },
+          "style": "diamond",
+          "template": " {{ .CurrentDate | date .Format }} ",
+          "type": "time"
+        },
+        {
+          "foreground": "#98C379",
+          "properties": {
+            "fetch_version": true
+          },
+          "style": "plain",
+          "template": "<#ffffff>via</> \ue781 {{ if .PackageManagerIcon }}{{ .PackageManagerIcon }} {{ end }}{{ .Full }} ",
+          "type": "node"
         }
-    ],
-    "version": 3
+      ],
+      "type": "prompt"
+    },
+    {
+      "alignment": "left",
+      "newline": true,
+      "segments": [
+        {
+          "foreground": "#45F1C2",
+          "style": "plain",
+          "template": "\u251c\u2500",
+          "type": "text"
+        },
+        {
+          "foreground": "#0CA0D8",
+          "properties": {
+            "folder_separator_icon": "/",
+            "style": "full"
+          },
+          "style": "plain",
+          "template": "<#f62f2e>In</> \uf07b {{ .Path }} ",
+          "type": "path"
+        },
+        {
+          "foreground": "#F62F2E",
+          "properties": {
+            "fetch_status": true
+          },
+          "style": "plain",
+          "template": "<#ffffff>on</> {{ .HEAD }}{{if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Working.Changed }} \uf044 {{ .Working.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }} \uf046 {{ .Staging.String }}{{ end }} ",
+          "type": "git"
+        }
+      ],
+      "type": "prompt"
+    },
+    {
+      "alignment": "left",
+      "newline": true,
+      "segments": [
+        {
+          "foreground": "#45F1C2",
+          "style": "plain",
+          "template": "\u2570\u2500",
+          "type": "text"
+        },
+        {
+          "foreground": "#ffffff",
+          "foreground_templates": ["{{ if gt .Code 0 }}#ef5350{{ end }}"],
+          "properties": {
+            "always_enabled": true
+          },
+          "style": "plain",
+          "template": "\ue285\ueab6 ",
+          "type": "status"
+        }
+      ],
+      "type": "prompt"
+    }
+  ],
+  "version": 3
 }
+
 ```
 
 ```json [setting.json]
@@ -277,6 +326,10 @@ oh-my-posh init pwsh --config 'C:\Users\RyanJoy\AppData\Local\Programs\oh-my-pos
             "id": "User.copy.644BA8F2"
         },
         {
+            "command": "find",
+            "id": "User.find"
+        },
+        {
             "command": 
             {
                 "action": "splitPane",
@@ -284,29 +337,26 @@ oh-my-posh init pwsh --config 'C:\Users\RyanJoy\AppData\Local\Programs\oh-my-pos
                 "splitMode": "duplicate"
             },
             "id": "User.splitPane.A6751878"
-        },
-        {
-            "command": "find",
-            "id": "User.find"
         }
     ],
     "alwaysShowTabs": true,
     "centerOnLaunch": true,
     "copyFormatting": "none",
     "copyOnSelect": false,
+    "defaultInputScope": "alphanumericHalfWidth",
     "defaultProfile": "{18413164-90ab-4dbd-8011-8a1c2c70638b}",
     "focusFollowMouse": true,
-    "initialCols": 90,
+    "initialCols": 120,
     "initialRows": 25,
     "keybindings": 
     [
         {
-            "id": "User.find",
-            "keys": "ctrl+shift+f"
-        },
-        {
             "id": "User.paste",
             "keys": "ctrl+v"
+        },
+        {
+            "id": "User.find",
+            "keys": "ctrl+shift+f"
         },
         {
             "id": "User.copy.644BA8F2",
@@ -333,11 +383,12 @@ oh-my-posh init pwsh --config 'C:\Users\RyanJoy\AppData\Local\Programs\oh-my-pos
             "experimental.retroTerminalEffect": false,
             "font": 
             {
-                "face": "MesloLGM Nerd Font",
-                "size": 12
+                "face": "Maple Mono NF",
+                "size": 11
             },
             "intenseTextStyle": "all",
             "opacity": 55,
+            "scrollbarState": "hidden",
             "startingDirectory": "%USERPROFILE%",
             "useAcrylic": true
         },
@@ -346,7 +397,7 @@ oh-my-posh init pwsh --config 'C:\Users\RyanJoy\AppData\Local\Programs\oh-my-pos
             {
                 "font": 
                 {
-                    "face": "Cascadia Code"
+                    "face": "Maple Mono NF"
                 },
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
@@ -354,11 +405,11 @@ oh-my-posh init pwsh --config 'C:\Users\RyanJoy\AppData\Local\Programs\oh-my-pos
             },
             {
                 "adjustIndistinguishableColors": "indexed",
-                "colorScheme": "One Half Dark",
+                "colorScheme": "Homebrew",
                 "elevate": true,
                 "font": 
                 {
-                    "face": "FiraCode Nerd Font Mono Retina",
+                    "face": "Maple Mono NF",
                     "size": 12
                 },
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
@@ -388,7 +439,7 @@ oh-my-posh init pwsh --config 'C:\Users\RyanJoy\AppData\Local\Programs\oh-my-pos
                 "commandline": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
                 "font": 
                 {
-                    "face": "MesloLGM Nerd Font",
+                    "face": "Maple Mono NF",
                     "size": 12,
                     "weight": "semi-bold"
                 },
@@ -401,6 +452,36 @@ oh-my-posh init pwsh --config 'C:\Users\RyanJoy\AppData\Local\Programs\oh-my-pos
                 "showMarksOnScrollbar": true,
                 "tabTitle": "Powershell7",
                 "useAcrylic": false
+            },
+            {
+                "guid": "{ef5c7d21-e0a2-5776-9987-ed368b38b44f}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{da43095e-0669-5d9a-a948-06375d22d682}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{769f29cc-21d2-5a0d-b15d-94f7c33ac61c}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2017",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{a02ebe16-e418-556a-9374-a9648db16121}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{a39e88b9-3366-5e71-b9c0-500a08ac333f}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
             }
         ]
     },
@@ -454,7 +535,7 @@ oh-my-posh init pwsh --config 'C:\Users\RyanJoy\AppData\Local\Programs\oh-my-pos
         }
     ],
     "tabWidthMode": "titleLength",
-    "theme": "light",
+    "theme": "dark",
     "themes": [],
     "useAcrylicInTabRow": true
 }
