@@ -37,7 +37,6 @@ import Linkcard from "./components/Linkcard/Linkcard.vue"
 import HomeUnderLine from './components/HomeUnderline/HomeUnderLine.vue'
 import ArticleMetadata from "./components/ArticleMetadata/ArticleMetadata.vue"
 import nodeIndex from "./components/PostList/noteIndex.vue"
-import list from "./components/lists/list.vue"
 import TagCloud from './components/PostList/TagCloud.vue'
 import BackToTop from './components/BackToTop/BackToTop.vue'
 
@@ -57,7 +56,6 @@ const enhanceApp = ({ app, router }: EnhanceAppContext) => {
   app.component('HomeUnderLine', HomeUnderLine)
   app.component('ArticleMetadata', ArticleMetadata)
   app.component('nodeIndex', nodeIndex)
-  app.component('list', list)
   app.component('TagCloud', TagCloud)
   app.component('BackToTop', BackToTop)
   app.component(ElBacktop.name!, ElBacktop)

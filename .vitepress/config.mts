@@ -9,7 +9,6 @@ import { calculateSidebar as originalCalculateSidebar } from "@ryanjoy/vitepress
 import { BiDirectionalLinks } from "@nolebase/markdown-it-bi-directional-links";
 import {  groupIconMdPlugin, groupIconVitePlugin, localIconLoader } from "vitepress-plugin-group-icons";
 import footnote_plugin from "markdown-it-footnote";
-import task_checkbox_plugin from "markdown-it-task-checkbox";
 import { transformerTwoslash } from '@shikijs/vitepress-twoslash'
 import { createFileSystemTypesCache } from '@shikijs/vitepress-twoslash/cache-fs'
 
@@ -211,8 +210,7 @@ export default defineConfig({
     //侧边栏自动配置
     sidebar: calculateSidebarWithDefaultOpen(
       [
-        { folderName: "📒文章", separate: true },
-        // { folderName: "📆日记", separate: true }
+        { folderName: "Docs", separate: true }
       ],
       ""
     ),
@@ -240,14 +238,6 @@ export default defineConfig({
       //obsidian双链插件
       md.use(BiDirectionalLinks());
       md.use(footnote_plugin);
-      md.use(task_checkbox_plugin, {
-        disabled: true,
-        divWrap: false,
-        divClass: "checkbox",
-        idPrefix: "cbx_",
-        ulClass: "task-list",
-        liClass: "task-list-item",
-      });
 
       // 保存原有的table渲染器
       const defaultRender =
