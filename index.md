@@ -15,7 +15,7 @@ hero:
   actions:
     - theme: brand
       text: 查看文章📖
-      link: /📒文章/index
+      link: /docs/index
     - theme: alt
       text: Todo✔️
       link: /otherDocs/Todo 清单
