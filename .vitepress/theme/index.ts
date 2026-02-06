@@ -1,7 +1,6 @@
 import { h, onMounted, watch, nextTick } from 'vue'
 import DefaultTheme from 'vitepress/theme'
 import {
-  inBrowser,
   useRoute,
   useData,
   type Theme as ThemeConfig,
@@ -13,7 +12,6 @@ import {
 // ==========================
 import './style/index.css'
 import 'virtual:group-icons.css'
-import 'vitepress-plugin-nprogress/lib/css/index.css'
 import '@nolebase/vitepress-plugin-highlight-targeted-heading/client/style.css'
 import '@nolebase/vitepress-plugin-git-changelog/client/style.css'
 import '@shikijs/vitepress-twoslash/style.css'
@@ -24,7 +22,6 @@ import 'element-plus/dist/index.css'
 // ==========================
 import mediumZoom from 'medium-zoom'
 import giscusTalk from 'vitepress-plugin-comment-with-giscus'
-import vitepressNprogress from 'vitepress-plugin-nprogress'
 import { NolebaseHighlightTargetedHeading } from '@nolebase/vitepress-plugin-highlight-targeted-heading/client'
 import { NolebaseGitChangelogPlugin } from '@nolebase/vitepress-plugin-git-changelog/client'
 import TwoslashFloatingVue from '@shikijs/vitepress-twoslash/client'
@@ -43,13 +40,11 @@ import BackToTop from './components/BackToTop/BackToTop.vue'
 // ==========================
 // enhanceApp 配置
 // ==========================
-const enhanceApp = ({ app, router }: EnhanceAppContext) => {
+const enhanceApp = ({ app }: EnhanceAppContext) => {
   // 使用 Git changelog 插件
   app.use(NolebaseGitChangelogPlugin)
   // 使用shiki twoslash
   app.use(TwoslashFloatingVue)
-  // 使用 nprogress 插件
-  vitepressNprogress({ app, router })
 
   // 全局注册组件
   app.component('Linkcard', Linkcard)
